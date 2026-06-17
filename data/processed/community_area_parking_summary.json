@@ -13,7 +13,11 @@
     "parking_311_bike_lane_count": 21,
     "local_311_complaint_count": 38587,
     "parking_311_complaints_per_sqkm": 601.54,
-    "parking_311_share_of_local_complaints_pct": 7.425
+    "parking_311_share_of_local_complaints_pct": 7.425,
+    "population": 54388,
+    "households": 25978,
+    "vehicles": 20988,
+    "vehicles_per_household": 0.808
   },
   {
     "area_type": "community_area",
@@ -29,7 +33,11 @@
     "parking_311_bike_lane_count": 19,
     "local_311_complaint_count": 57222,
     "parking_311_complaints_per_sqkm": 556.74,
-    "parking_311_share_of_local_complaints_pct": 8.883
+    "parking_311_share_of_local_complaints_pct": 8.883,
+    "population": 78227,
+    "households": 26301,
+    "vehicles": 35950,
+    "vehicles_per_household": 1.367
   },
   {
     "area_type": "community_area",
@@ -45,7 +53,11 @@
     "parking_311_bike_lane_count": 90,
     "local_311_complaint_count": 46458,
     "parking_311_complaints_per_sqkm": 321.3,
-    "parking_311_share_of_local_complaints_pct": 4.178
+    "parking_311_share_of_local_complaints_pct": 4.178,
+    "population": 57331,
+    "households": 32643,
+    "vehicles": 23386,
+    "vehicles_per_household": 0.716
   },
   {
     "area_type": "community_area",
@@ -61,7 +73,11 @@
     "parking_311_bike_lane_count": 45,
     "local_311_complaint_count": 40721,
     "parking_311_complaints_per_sqkm": 325.45,
-    "parking_311_share_of_local_complaints_pct": 5.292
+    "parking_311_share_of_local_complaints_pct": 5.292,
+    "population": 41673,
+    "households": 19670,
+    "vehicles": 20473,
+    "vehicles_per_household": 1.041
   },
   {
     "area_type": "community_area",
@@ -77,7 +93,11 @@
     "parking_311_bike_lane_count": 117,
     "local_311_complaint_count": 41163,
     "parking_311_complaints_per_sqkm": 406.02,
-    "parking_311_share_of_local_complaints_pct": 5.211
+    "parking_311_share_of_local_complaints_pct": 5.211,
+    "population": 35408,
+    "households": 14666,
+    "vehicles": 18571,
+    "vehicles_per_household": 1.266
   },
   {
     "area_type": "community_area",
@@ -93,7 +113,11 @@
     "parking_311_bike_lane_count": 124,
     "local_311_complaint_count": 78663,
     "parking_311_complaints_per_sqkm": 270.58,
-    "parking_311_share_of_local_complaints_pct": 2.788
+    "parking_311_share_of_local_complaints_pct": 2.788,
+    "population": 101163,
+    "households": 56766,
+    "vehicles": 42819,
+    "vehicles_per_household": 0.754
   },
   {
     "area_type": "community_area",
@@ -109,7 +133,11 @@
     "parking_311_bike_lane_count": 265,
     "local_311_complaint_count": 77571,
     "parking_311_complaints_per_sqkm": 228.59,
-    "parking_311_share_of_local_complaints_pct": 2.421
+    "parking_311_share_of_local_complaints_pct": 2.421,
+    "population": 67831,
+    "households": 33145,
+    "vehicles": 29570,
+    "vehicles_per_household": 0.892
   },
   {
     "area_type": "community_area",
@@ -125,7 +153,11 @@
     "parking_311_bike_lane_count": 209,
     "local_311_complaint_count": 55291,
     "parking_311_complaints_per_sqkm": 140.46,
-    "parking_311_share_of_local_complaints_pct": 1.807
+    "parking_311_share_of_local_complaints_pct": 1.807,
+    "population": 104712,
+    "households": 66227,
+    "vehicles": 41886,
+    "vehicles_per_household": 0.632
   },
   {
     "area_type": "community_area",
@@ -141,7 +173,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 12732,
     "parking_311_complaints_per_sqkm": 127.39,
-    "parking_311_share_of_local_complaints_pct": 2.937
+    "parking_311_share_of_local_complaints_pct": 2.937,
+    "population": 11203,
+    "households": 4598,
+    "vehicles": 8075,
+    "vehicles_per_household": 1.756
   },
   {
     "area_type": "community_area",
@@ -157,7 +193,11 @@
     "parking_311_bike_lane_count": 8,
     "local_311_complaint_count": 46032,
     "parking_311_complaints_per_sqkm": 206.66,
-    "parking_311_share_of_local_complaints_pct": 5.079
+    "parking_311_share_of_local_complaints_pct": 5.079,
+    "population": 38566,
+    "households": 15030,
+    "vehicles": 24838,
+    "vehicles_per_household": 1.653
   },
   {
     "area_type": "community_area",
@@ -173,7 +213,11 @@
     "parking_311_bike_lane_count": 12,
     "local_311_complaint_count": 33398,
     "parking_311_complaints_per_sqkm": 332.27,
-    "parking_311_share_of_local_complaints_pct": 5.985
+    "parking_311_share_of_local_complaints_pct": 5.985,
+    "population": 26643,
+    "households": 10991,
+    "vehicles": 16946,
+    "vehicles_per_household": 1.542
   },
   {
     "area_type": "community_area",
@@ -189,7 +233,11 @@
     "parking_311_bike_lane_count": 3,
     "local_311_complaint_count": 33978,
     "parking_311_complaints_per_sqkm": 103.89,
-    "parking_311_share_of_local_complaints_pct": 2.528
+    "parking_311_share_of_local_complaints_pct": 2.528,
+    "population": 19517,
+    "households": 7050,
+    "vehicles": 12494,
+    "vehicles_per_household": 1.772
   },
   {
     "area_type": "community_area",
@@ -205,7 +253,11 @@
     "parking_311_bike_lane_count": 10,
     "local_311_complaint_count": 19887,
     "parking_311_complaints_per_sqkm": 184.1,
-    "parking_311_share_of_local_complaints_pct": 6.039
+    "parking_311_share_of_local_complaints_pct": 6.039,
+    "population": 18742,
+    "households": 6924,
+    "vehicles": 9191,
+    "vehicles_per_household": 1.327
   },
   {
     "area_type": "community_area",
@@ -221,7 +273,11 @@
     "parking_311_bike_lane_count": 24,
     "local_311_complaint_count": 44327,
     "parking_311_complaints_per_sqkm": 540.56,
-    "parking_311_share_of_local_complaints_pct": 6.062
+    "parking_311_share_of_local_complaints_pct": 6.062,
+    "population": 46620,
+    "households": 17294,
+    "vehicles": 20952,
+    "vehicles_per_household": 1.212
   },
   {
     "area_type": "community_area",
@@ -237,7 +293,11 @@
     "parking_311_bike_lane_count": 16,
     "local_311_complaint_count": 79860,
     "parking_311_complaints_per_sqkm": 550.8,
-    "parking_311_share_of_local_complaints_pct": 7.049
+    "parking_311_share_of_local_complaints_pct": 7.049,
+    "population": 61793,
+    "households": 23447,
+    "vehicles": 37051,
+    "vehicles_per_household": 1.58
   },
   {
     "area_type": "community_area",
@@ -253,7 +313,11 @@
     "parking_311_bike_lane_count": 88,
     "local_311_complaint_count": 63086,
     "parking_311_complaints_per_sqkm": 494.35,
-    "parking_311_share_of_local_complaints_pct": 6.517
+    "parking_311_share_of_local_complaints_pct": 6.517,
+    "population": 53832,
+    "households": 22006,
+    "vehicles": 28682,
+    "vehicles_per_household": 1.303
   },
   {
     "area_type": "community_area",
@@ -269,7 +333,11 @@
     "parking_311_bike_lane_count": 9,
     "local_311_complaint_count": 47934,
     "parking_311_complaints_per_sqkm": 477.75,
-    "parking_311_share_of_local_complaints_pct": 9.571
+    "parking_311_share_of_local_complaints_pct": 9.571,
+    "population": 41816,
+    "households": 16195,
+    "vehicles": 27460,
+    "vehicles_per_household": 1.696
   },
   {
     "area_type": "community_area",
@@ -285,7 +353,11 @@
     "parking_311_bike_lane_count": 5,
     "local_311_complaint_count": 15582,
     "parking_311_complaints_per_sqkm": 499.28,
-    "parking_311_share_of_local_complaints_pct": 8.221
+    "parking_311_share_of_local_complaints_pct": 8.221,
+    "population": 14084,
+    "households": 4865,
+    "vehicles": 8721,
+    "vehicles_per_household": 1.793
   },
   {
     "area_type": "community_area",
@@ -301,7 +373,11 @@
     "parking_311_bike_lane_count": 14,
     "local_311_complaint_count": 73476,
     "parking_311_complaints_per_sqkm": 769.47,
-    "parking_311_share_of_local_complaints_pct": 10.598
+    "parking_311_share_of_local_complaints_pct": 10.598,
+    "population": 72918,
+    "households": 22902,
+    "vehicles": 35716,
+    "vehicles_per_household": 1.56
   },
   {
     "area_type": "community_area",
@@ -317,7 +393,11 @@
     "parking_311_bike_lane_count": 4,
     "local_311_complaint_count": 23563,
     "parking_311_complaints_per_sqkm": 505.6,
-    "parking_311_share_of_local_complaints_pct": 6.493
+    "parking_311_share_of_local_complaints_pct": 6.493,
+    "population": 22776,
+    "households": 7560,
+    "vehicles": 11910,
+    "vehicles_per_household": 1.575
   },
   {
     "area_type": "community_area",
@@ -333,7 +413,11 @@
     "parking_311_bike_lane_count": 89,
     "local_311_complaint_count": 46368,
     "parking_311_complaints_per_sqkm": 680.03,
-    "parking_311_share_of_local_complaints_pct": 7.527
+    "parking_311_share_of_local_complaints_pct": 7.527,
+    "population": 35489,
+    "households": 14763,
+    "vehicles": 18307,
+    "vehicles_per_household": 1.24
   },
   {
     "area_type": "community_area",
@@ -349,7 +433,11 @@
     "parking_311_bike_lane_count": 226,
     "local_311_complaint_count": 91431,
     "parking_311_complaints_per_sqkm": 449.62,
-    "parking_311_share_of_local_complaints_pct": 4.56
+    "parking_311_share_of_local_complaints_pct": 4.56,
+    "population": 72010,
+    "households": 33117,
+    "vehicles": 36786,
+    "vehicles_per_household": 1.111
   },
   {
     "area_type": "community_area",
@@ -365,7 +453,11 @@
     "parking_311_bike_lane_count": 28,
     "local_311_complaint_count": 59303,
     "parking_311_complaints_per_sqkm": 479.43,
-    "parking_311_share_of_local_complaints_pct": 7.531
+    "parking_311_share_of_local_complaints_pct": 7.531,
+    "population": 55598,
+    "households": 19153,
+    "vehicles": 23105,
+    "vehicles_per_household": 1.206
   },
   {
     "area_type": "community_area",
@@ -381,7 +473,11 @@
     "parking_311_bike_lane_count": 460,
     "local_311_complaint_count": 118550,
     "parking_311_complaints_per_sqkm": 366.76,
-    "parking_311_share_of_local_complaints_pct": 3.656
+    "parking_311_share_of_local_complaints_pct": 3.656,
+    "population": 85457,
+    "households": 41660,
+    "vehicles": 44593,
+    "vehicles_per_household": 1.07
   },
   {
     "area_type": "community_area",
@@ -397,7 +493,11 @@
     "parking_311_bike_lane_count": 10,
     "local_311_complaint_count": 115192,
     "parking_311_complaints_per_sqkm": 514.98,
-    "parking_311_share_of_local_complaints_pct": 8.255
+    "parking_311_share_of_local_complaints_pct": 8.255,
+    "population": 98882,
+    "households": 35827,
+    "vehicles": 41631,
+    "vehicles_per_household": 1.162
   },
   {
     "area_type": "community_area",
@@ -413,7 +513,11 @@
     "parking_311_bike_lane_count": 1,
     "local_311_complaint_count": 27381,
     "parking_311_complaints_per_sqkm": 579.37,
-    "parking_311_share_of_local_complaints_pct": 7.089
+    "parking_311_share_of_local_complaints_pct": 7.089,
+    "population": 15619,
+    "households": 5785,
+    "vehicles": 5627,
+    "vehicles_per_household": 0.973
   },
   {
     "area_type": "community_area",
@@ -429,7 +533,11 @@
     "parking_311_bike_lane_count": 25,
     "local_311_complaint_count": 30144,
     "parking_311_complaints_per_sqkm": 403.24,
-    "parking_311_share_of_local_complaints_pct": 6.688
+    "parking_311_share_of_local_complaints_pct": 6.688,
+    "population": 20526,
+    "households": 7737,
+    "vehicles": 7068,
+    "vehicles_per_household": 0.914
   },
   {
     "area_type": "community_area",
@@ -445,7 +553,11 @@
     "parking_311_bike_lane_count": 644,
     "local_311_complaint_count": 76631,
     "parking_311_complaints_per_sqkm": 182.22,
-    "parking_311_share_of_local_complaints_pct": 3.496
+    "parking_311_share_of_local_complaints_pct": 3.496,
+    "population": 66084,
+    "households": 34396,
+    "vehicles": 28351,
+    "vehicles_per_household": 0.824
   },
   {
     "area_type": "community_area",
@@ -461,7 +573,11 @@
     "parking_311_bike_lane_count": 11,
     "local_311_complaint_count": 46482,
     "parking_311_complaints_per_sqkm": 366.52,
-    "parking_311_share_of_local_complaints_pct": 6.54
+    "parking_311_share_of_local_complaints_pct": 6.54,
+    "population": 31244,
+    "households": 12048,
+    "vehicles": 12419,
+    "vehicles_per_household": 1.031
   },
   {
     "area_type": "community_area",
@@ -477,7 +593,11 @@
     "parking_311_bike_lane_count": 7,
     "local_311_complaint_count": 67875,
     "parking_311_complaints_per_sqkm": 344.76,
-    "parking_311_share_of_local_complaints_pct": 6.041
+    "parking_311_share_of_local_complaints_pct": 6.041,
+    "population": 68798,
+    "households": 20716,
+    "vehicles": 27575,
+    "vehicles_per_household": 1.331
   },
   {
     "area_type": "community_area",
@@ -493,7 +613,11 @@
     "parking_311_bike_lane_count": 118,
     "local_311_complaint_count": 50926,
     "parking_311_complaints_per_sqkm": 261.06,
-    "parking_311_share_of_local_complaints_pct": 3.882
+    "parking_311_share_of_local_complaints_pct": 3.882,
+    "population": 33279,
+    "households": 14441,
+    "vehicles": 15750,
+    "vehicles_per_household": 1.091
   },
   {
     "area_type": "community_area",
@@ -509,7 +633,11 @@
     "parking_311_bike_lane_count": 129,
     "local_311_complaint_count": 38281,
     "parking_311_complaints_per_sqkm": 206.44,
-    "parking_311_share_of_local_complaints_pct": 2.322
+    "parking_311_share_of_local_complaints_pct": 2.322,
+    "population": 42181,
+    "households": 23894,
+    "vehicles": 13516,
+    "vehicles_per_household": 0.566
   },
   {
     "area_type": "community_area",
@@ -525,7 +653,11 @@
     "parking_311_bike_lane_count": 66,
     "local_311_complaint_count": 15112,
     "parking_311_complaints_per_sqkm": 129.27,
-    "parking_311_share_of_local_complaints_pct": 3.951
+    "parking_311_share_of_local_complaints_pct": 3.951,
+    "population": 29174,
+    "households": 16436,
+    "vehicles": 15474,
+    "vehicles_per_household": 0.941
   },
   {
     "area_type": "community_area",
@@ -541,7 +673,11 @@
     "parking_311_bike_lane_count": 20,
     "local_311_complaint_count": 14107,
     "parking_311_complaints_per_sqkm": 232.08,
-    "parking_311_share_of_local_complaints_pct": 4.246
+    "parking_311_share_of_local_complaints_pct": 4.246,
+    "population": 14207,
+    "households": 5833,
+    "vehicles": 5380,
+    "vehicles_per_household": 0.922
   },
   {
     "area_type": "community_area",
@@ -557,7 +693,11 @@
     "parking_311_bike_lane_count": 6,
     "local_311_complaint_count": 11315,
     "parking_311_complaints_per_sqkm": 140.95,
-    "parking_311_share_of_local_complaints_pct": 5.312
+    "parking_311_share_of_local_complaints_pct": 5.312,
+    "population": 21756,
+    "households": 10517,
+    "vehicles": 7286,
+    "vehicles_per_household": 0.693
   },
   {
     "area_type": "community_area",
@@ -573,7 +713,11 @@
     "parking_311_bike_lane_count": 6,
     "local_311_complaint_count": 4847,
     "parking_311_complaints_per_sqkm": 222.69,
-    "parking_311_share_of_local_complaints_pct": 7.221
+    "parking_311_share_of_local_complaints_pct": 7.221,
+    "population": 6946,
+    "households": 3423,
+    "vehicles": 2763,
+    "vehicles_per_household": 0.807
   },
   {
     "area_type": "community_area",
@@ -589,7 +733,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 6202,
     "parking_311_complaints_per_sqkm": 180.77,
-    "parking_311_share_of_local_complaints_pct": 5.369
+    "parking_311_share_of_local_complaints_pct": 5.369,
+    "population": 2142,
+    "households": 1008,
+    "vehicles": 635,
+    "vehicles_per_household": 0.63
   },
   {
     "area_type": "community_area",
@@ -605,7 +753,11 @@
     "parking_311_bike_lane_count": 4,
     "local_311_complaint_count": 24560,
     "parking_311_complaints_per_sqkm": 477.76,
-    "parking_311_share_of_local_complaints_pct": 8.758
+    "parking_311_share_of_local_complaints_pct": 8.758,
+    "population": 26345,
+    "households": 12200,
+    "vehicles": 12195,
+    "vehicles_per_household": 1.0
   },
   {
     "area_type": "community_area",
@@ -621,7 +773,11 @@
     "parking_311_bike_lane_count": 7,
     "local_311_complaint_count": 12009,
     "parking_311_complaints_per_sqkm": 277.08,
-    "parking_311_share_of_local_complaints_pct": 6.229
+    "parking_311_share_of_local_complaints_pct": 6.229,
+    "population": 18138,
+    "households": 9945,
+    "vehicles": 8536,
+    "vehicles_per_household": 0.858
   },
   {
     "area_type": "community_area",
@@ -637,7 +793,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 13231,
     "parking_311_complaints_per_sqkm": 168.68,
-    "parking_311_share_of_local_complaints_pct": 5.011
+    "parking_311_share_of_local_complaints_pct": 5.011,
+    "population": 13111,
+    "households": 5357,
+    "vehicles": 4488,
+    "vehicles_per_household": 0.838
   },
   {
     "area_type": "community_area",
@@ -653,7 +813,11 @@
     "parking_311_bike_lane_count": 34,
     "local_311_complaint_count": 17121,
     "parking_311_complaints_per_sqkm": 147.11,
-    "parking_311_share_of_local_complaints_pct": 3.598
+    "parking_311_share_of_local_complaints_pct": 3.598,
+    "population": 29591,
+    "households": 14894,
+    "vehicles": 10626,
+    "vehicles_per_household": 0.713
   },
   {
     "area_type": "community_area",
@@ -669,7 +833,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 24423,
     "parking_311_complaints_per_sqkm": 277.82,
-    "parking_311_share_of_local_complaints_pct": 6.097
+    "parking_311_share_of_local_complaints_pct": 6.097,
+    "population": 26567,
+    "households": 11872,
+    "vehicles": 10158,
+    "vehicles_per_household": 0.856
   },
   {
     "area_type": "community_area",
@@ -685,7 +853,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 51015,
     "parking_311_complaints_per_sqkm": 448.57,
-    "parking_311_share_of_local_complaints_pct": 6.678
+    "parking_311_share_of_local_complaints_pct": 6.678,
+    "population": 51734,
+    "households": 25131,
+    "vehicles": 21564,
+    "vehicles_per_household": 0.858
   },
   {
     "area_type": "community_area",
@@ -701,7 +873,11 @@
     "parking_311_bike_lane_count": 33,
     "local_311_complaint_count": 42802,
     "parking_311_complaints_per_sqkm": 303.41,
-    "parking_311_share_of_local_complaints_pct": 5.416
+    "parking_311_share_of_local_complaints_pct": 5.416,
+    "population": 30749,
+    "households": 14938,
+    "vehicles": 14162,
+    "vehicles_per_household": 0.948
   },
   {
     "area_type": "community_area",
@@ -717,7 +893,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 15376,
     "parking_311_complaints_per_sqkm": 223.54,
-    "parking_311_share_of_local_complaints_pct": 4.696
+    "parking_311_share_of_local_complaints_pct": 4.696,
+    "population": 9481,
+    "households": 4061,
+    "vehicles": 4357,
+    "vehicles_per_household": 1.073
   },
   {
     "area_type": "community_area",
@@ -733,7 +913,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 39730,
     "parking_311_complaints_per_sqkm": 292.54,
-    "parking_311_share_of_local_complaints_pct": 6.373
+    "parking_311_share_of_local_complaints_pct": 6.373,
+    "population": 29381,
+    "households": 11401,
+    "vehicles": 12350,
+    "vehicles_per_household": 1.083
   },
   {
     "area_type": "community_area",
@@ -749,7 +933,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 3728,
     "parking_311_complaints_per_sqkm": 105.74,
-    "parking_311_share_of_local_complaints_pct": 4.48
+    "parking_311_share_of_local_complaints_pct": 4.48,
+    "population": 2148,
+    "households": 932,
+    "vehicles": 1044,
+    "vehicles_per_household": 1.12
   },
   {
     "area_type": "community_area",
@@ -765,7 +953,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 21821,
     "parking_311_complaints_per_sqkm": 208.81,
-    "parking_311_share_of_local_complaints_pct": 4.34
+    "parking_311_share_of_local_complaints_pct": 4.34,
+    "population": 11645,
+    "households": 5521,
+    "vehicles": 6485,
+    "vehicles_per_household": 1.175
   },
   {
     "area_type": "community_area",
@@ -781,7 +973,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 60188,
     "parking_311_complaints_per_sqkm": 209.3,
-    "parking_311_share_of_local_complaints_pct": 4.331
+    "parking_311_share_of_local_complaints_pct": 4.331,
+    "population": 36700,
+    "households": 13909,
+    "vehicles": 17066,
+    "vehicles_per_household": 1.227
   },
   {
     "area_type": "community_area",
@@ -797,7 +993,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 10856,
     "parking_311_complaints_per_sqkm": 116.05,
-    "parking_311_share_of_local_complaints_pct": 5.849
+    "parking_311_share_of_local_complaints_pct": 5.849,
+    "population": 6741,
+    "households": 3220,
+    "vehicles": 3802,
+    "vehicles_per_household": 1.181
   },
   {
     "area_type": "community_area",
@@ -813,7 +1013,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 24418,
     "parking_311_complaints_per_sqkm": 42.94,
-    "parking_311_share_of_local_complaints_pct": 4.955
+    "parking_311_share_of_local_complaints_pct": 4.955,
+    "population": 14210,
+    "households": 5497,
+    "vehicles": 6955,
+    "vehicles_per_household": 1.265
   },
   {
     "area_type": "community_area",
@@ -829,7 +1033,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 24947,
     "parking_311_complaints_per_sqkm": 266.37,
-    "parking_311_share_of_local_complaints_pct": 8.241
+    "parking_311_share_of_local_complaints_pct": 8.241,
+    "population": 22793,
+    "households": 7409,
+    "vehicles": 12405,
+    "vehicles_per_household": 1.674
   },
   {
     "area_type": "community_area",
@@ -845,7 +1053,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 43729,
     "parking_311_complaints_per_sqkm": 196.51,
-    "parking_311_share_of_local_complaints_pct": 4.139
+    "parking_311_share_of_local_complaints_pct": 4.139,
+    "population": 24470,
+    "households": 9468,
+    "vehicles": 12465,
+    "vehicles_per_household": 1.317
   },
   {
     "area_type": "community_area",
@@ -861,7 +1073,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 4737,
     "parking_311_complaints_per_sqkm": 18.1,
-    "parking_311_share_of_local_complaints_pct": 3.483
+    "parking_311_share_of_local_complaints_pct": 3.483,
+    "population": 7536,
+    "households": 2851,
+    "vehicles": 2144,
+    "vehicles_per_household": 0.752
   },
   {
     "area_type": "community_area",
@@ -877,7 +1093,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 12018,
     "parking_311_complaints_per_sqkm": 43.11,
-    "parking_311_share_of_local_complaints_pct": 4.859
+    "parking_311_share_of_local_complaints_pct": 4.859,
+    "population": 8971,
+    "households": 3670,
+    "vehicles": 5725,
+    "vehicles_per_household": 1.56
   },
   {
     "area_type": "community_area",
@@ -893,7 +1113,11 @@
     "parking_311_bike_lane_count": 4,
     "local_311_complaint_count": 50985,
     "parking_311_complaints_per_sqkm": 276.79,
-    "parking_311_share_of_local_complaints_pct": 5.933
+    "parking_311_share_of_local_complaints_pct": 5.933,
+    "population": 36426,
+    "households": 12689,
+    "vehicles": 22268,
+    "vehicles_per_household": 1.755
   },
   {
     "area_type": "community_area",
@@ -909,7 +1133,11 @@
     "parking_311_bike_lane_count": 3,
     "local_311_complaint_count": 24368,
     "parking_311_complaints_per_sqkm": 317.77,
-    "parking_311_share_of_local_complaints_pct": 6.783
+    "parking_311_share_of_local_complaints_pct": 6.783,
+    "population": 14021,
+    "households": 4610,
+    "vehicles": 6467,
+    "vehicles_per_household": 1.403
   },
   {
     "area_type": "community_area",
@@ -925,7 +1153,11 @@
     "parking_311_bike_lane_count": 29,
     "local_311_complaint_count": 47639,
     "parking_311_complaints_per_sqkm": 468.85,
-    "parking_311_share_of_local_complaints_pct": 6.927
+    "parking_311_share_of_local_complaints_pct": 6.927,
+    "population": 42062,
+    "households": 13323,
+    "vehicles": 20481,
+    "vehicles_per_household": 1.537
   },
   {
     "area_type": "community_area",
@@ -941,7 +1173,11 @@
     "parking_311_bike_lane_count": 4,
     "local_311_complaint_count": 24670,
     "parking_311_complaints_per_sqkm": 327.02,
-    "parking_311_share_of_local_complaints_pct": 4.836
+    "parking_311_share_of_local_complaints_pct": 4.836,
+    "population": 15443,
+    "households": 5756,
+    "vehicles": 8432,
+    "vehicles_per_household": 1.465
   },
   {
     "area_type": "community_area",
@@ -957,7 +1193,11 @@
     "parking_311_bike_lane_count": 37,
     "local_311_complaint_count": 42213,
     "parking_311_complaints_per_sqkm": 456.72,
-    "parking_311_share_of_local_complaints_pct": 5.851
+    "parking_311_share_of_local_complaints_pct": 5.851,
+    "population": 33123,
+    "households": 13712,
+    "vehicles": 17795,
+    "vehicles_per_household": 1.298
   },
   {
     "area_type": "community_area",
@@ -973,7 +1213,11 @@
     "parking_311_bike_lane_count": 5,
     "local_311_complaint_count": 58217,
     "parking_311_complaints_per_sqkm": 329.83,
-    "parking_311_share_of_local_complaints_pct": 7.08
+    "parking_311_share_of_local_complaints_pct": 7.08,
+    "population": 41869,
+    "households": 13999,
+    "vehicles": 18333,
+    "vehicles_per_household": 1.31
   },
   {
     "area_type": "community_area",
@@ -989,7 +1233,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 21845,
     "parking_311_complaints_per_sqkm": 696.92,
-    "parking_311_share_of_local_complaints_pct": 9.682
+    "parking_311_share_of_local_complaints_pct": 9.682,
+    "population": 18568,
+    "households": 5611,
+    "vehicles": 10035,
+    "vehicles_per_household": 1.788
   },
   {
     "area_type": "community_area",
@@ -1005,7 +1253,11 @@
     "parking_311_bike_lane_count": 5,
     "local_311_complaint_count": 49037,
     "parking_311_complaints_per_sqkm": 676.01,
-    "parking_311_share_of_local_complaints_pct": 7.839
+    "parking_311_share_of_local_complaints_pct": 7.839,
+    "population": 35691,
+    "households": 10543,
+    "vehicles": 16321,
+    "vehicles_per_household": 1.548
   },
   {
     "area_type": "community_area",
@@ -1021,7 +1273,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 28454,
     "parking_311_complaints_per_sqkm": 351.31,
-    "parking_311_share_of_local_complaints_pct": 8.132
+    "parking_311_share_of_local_complaints_pct": 8.132,
+    "population": 24924,
+    "households": 9126,
+    "vehicles": 15014,
+    "vehicles_per_household": 1.645
   },
   {
     "area_type": "community_area",
@@ -1037,7 +1293,11 @@
     "parking_311_bike_lane_count": 6,
     "local_311_complaint_count": 35473,
     "parking_311_complaints_per_sqkm": 418.35,
-    "parking_311_share_of_local_complaints_pct": 9.015
+    "parking_311_share_of_local_complaints_pct": 9.015,
+    "population": 32649,
+    "households": 9702,
+    "vehicles": 17442,
+    "vehicles_per_household": 1.798
   },
   {
     "area_type": "community_area",
@@ -1053,7 +1313,11 @@
     "parking_311_bike_lane_count": 5,
     "local_311_complaint_count": 69244,
     "parking_311_complaints_per_sqkm": 542.24,
-    "parking_311_share_of_local_complaints_pct": 7.137
+    "parking_311_share_of_local_complaints_pct": 7.137,
+    "population": 53460,
+    "households": 17681,
+    "vehicles": 24361,
+    "vehicles_per_household": 1.378
   },
   {
     "area_type": "community_area",
@@ -1069,7 +1333,11 @@
     "parking_311_bike_lane_count": 3,
     "local_311_complaint_count": 50942,
     "parking_311_complaints_per_sqkm": 349.88,
-    "parking_311_share_of_local_complaints_pct": 5.593
+    "parking_311_share_of_local_complaints_pct": 5.593,
+    "population": 26729,
+    "households": 9934,
+    "vehicles": 11208,
+    "vehicles_per_household": 1.128
   },
   {
     "area_type": "community_area",
@@ -1085,7 +1353,11 @@
     "parking_311_bike_lane_count": 1,
     "local_311_complaint_count": 39220,
     "parking_311_complaints_per_sqkm": 242.18,
-    "parking_311_share_of_local_complaints_pct": 4.908
+    "parking_311_share_of_local_complaints_pct": 4.908,
+    "population": 21411,
+    "households": 9370,
+    "vehicles": 7498,
+    "vehicles_per_household": 0.8
   },
   {
     "area_type": "community_area",
@@ -1101,7 +1373,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 44822,
     "parking_311_complaints_per_sqkm": 315.33,
-    "parking_311_share_of_local_complaints_pct": 6.459
+    "parking_311_share_of_local_complaints_pct": 6.459,
+    "population": 29563,
+    "households": 12705,
+    "vehicles": 10993,
+    "vehicles_per_household": 0.865
   },
   {
     "area_type": "community_area",
@@ -1117,7 +1393,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 47740,
     "parking_311_complaints_per_sqkm": 201.79,
-    "parking_311_share_of_local_complaints_pct": 5.312
+    "parking_311_share_of_local_complaints_pct": 5.312,
+    "population": 42079,
+    "households": 13183,
+    "vehicles": 23681,
+    "vehicles_per_household": 1.796
   },
   {
     "area_type": "community_area",
@@ -1133,7 +1413,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 60786,
     "parking_311_complaints_per_sqkm": 309.14,
-    "parking_311_share_of_local_complaints_pct": 4.958
+    "parking_311_share_of_local_complaints_pct": 4.958,
+    "population": 45049,
+    "households": 17752,
+    "vehicles": 18777,
+    "vehicles_per_household": 1.058
   },
   {
     "area_type": "community_area",
@@ -1149,7 +1433,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 28673,
     "parking_311_complaints_per_sqkm": 67.4,
-    "parking_311_share_of_local_complaints_pct": 1.932
+    "parking_311_share_of_local_complaints_pct": 1.932,
+    "population": 19570,
+    "households": 7451,
+    "vehicles": 12883,
+    "vehicles_per_household": 1.729
   },
   {
     "area_type": "community_area",
@@ -1165,7 +1453,11 @@
     "parking_311_bike_lane_count": 0,
     "local_311_complaint_count": 40208,
     "parking_311_complaints_per_sqkm": 251.32,
-    "parking_311_share_of_local_complaints_pct": 4.611
+    "parking_311_share_of_local_complaints_pct": 4.611,
+    "population": 25312,
+    "households": 9474,
+    "vehicles": 12826,
+    "vehicles_per_household": 1.354
   },
   {
     "area_type": "community_area",
@@ -1181,7 +1473,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 19129,
     "parking_311_complaints_per_sqkm": 64.35,
-    "parking_311_share_of_local_complaints_pct": 2.352
+    "parking_311_share_of_local_complaints_pct": 2.352,
+    "population": 18553,
+    "households": 7212,
+    "vehicles": 12268,
+    "vehicles_per_household": 1.701
   },
   {
     "area_type": "community_area",
@@ -1197,7 +1493,11 @@
     "parking_311_bike_lane_count": 1,
     "local_311_complaint_count": 31978,
     "parking_311_complaints_per_sqkm": 105.59,
-    "parking_311_share_of_local_complaints_pct": 2.814
+    "parking_311_share_of_local_complaints_pct": 2.814,
+    "population": 21318,
+    "households": 8508,
+    "vehicles": 12422,
+    "vehicles_per_household": 1.46
   },
   {
     "area_type": "community_area",
@@ -1213,7 +1513,11 @@
     "parking_311_bike_lane_count": 2,
     "local_311_complaint_count": 9241,
     "parking_311_complaints_per_sqkm": 33.47,
-    "parking_311_share_of_local_complaints_pct": 12.499
+    "parking_311_share_of_local_complaints_pct": 12.499,
+    "population": 13773,
+    "households": 6497,
+    "vehicles": 9553,
+    "vehicles_per_household": 1.47
   },
   {
     "area_type": "community_area",
@@ -1229,6 +1533,10 @@
     "parking_311_bike_lane_count": 105,
     "local_311_complaint_count": 43268,
     "parking_311_complaints_per_sqkm": 524.56,
-    "parking_311_share_of_local_complaints_pct": 5.445
+    "parking_311_share_of_local_complaints_pct": 5.445,
+    "population": 56146,
+    "households": 29985,
+    "vehicles": 23647,
+    "vehicles_per_household": 0.789
   }
 ]

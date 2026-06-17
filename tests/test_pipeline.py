@@ -6,6 +6,7 @@ from parkability.pipeline import (
     COMPLAINTS_SHARE_METRIC,
     PARKING_METRIC,
     PERMIT_METRIC,
+    VEHICLES_METRIC,
     run,
 )
 
@@ -13,6 +14,7 @@ FIXTURES = Path(__file__).resolve().parent.parent / "data" / "fixtures"
 PARKING = FIXTURES / "sample_parking.json"
 PERMIT = FIXTURES / "sample_permit_zones.json"
 COMPLAINTS = FIXTURES / "sample_311.json"
+CARS = FIXTURES / "sample_car_ownership.json"
 
 
 def _run(tmp_path):
@@ -20,6 +22,7 @@ def _run(tmp_path):
         parking_input=PARKING,
         permit_input=PERMIT,
         complaints_input=COMPLAINTS,
+        car_ownership_input=CARS,
         output_dir=tmp_path,
     )
 
@@ -83,6 +86,24 @@ def test_311_counts_and_share_across_geographies(tmp_path):
             "ward", "community_area", "zip",
         }
         assert metric in result["summaries"]["zip"][0]
+
+
+def test_car_ownership_vehicles_per_household_and_population(tmp_path):
+    result = _run(tmp_path)
+    by_ward = {r["area_id"]: r for r in result["summaries"]["ward"]}
+    # Ward 01: two tracts -> 100 households, 80 vehicles -> 0.8; 250 population.
+    assert by_ward["01"]["households"] == 100
+    assert by_ward["01"]["vehicles"] == 80
+    assert by_ward["01"]["population"] == 250
+    assert by_ward["01"][VEHICLES_METRIC] == 0.8
+    # Ward 02: 50 households, 75 vehicles -> 1.5.
+    assert by_ward["02"][VEHICLES_METRIC] == 1.5
+    # Out-of-bounds tract assigns nowhere; a ward with no tract -> null vph.
+    assert result["metadata"]["audit"]["tracts_total"] == 4
+    assert by_ward["05"][VEHICLES_METRIC] is None
+    assert set(result["metadata"]["metric_geography_coverage"][VEHICLES_METRIC]) == {
+        "ward", "community_area", "zip",
+    }
 
 
 def test_permit_metric_absent_from_non_ward_geographies(tmp_path):

@@ -18,6 +18,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--permit-input", help="Cached permit-zone JSON; skips the network fetch.")
     parser.add_argument("--complaints-input", help="Cached 311 complaints JSON; skips the network fetch.")
     parser.add_argument("--complaints-since", default=None, help="Earliest 311 created_date (default 2023-01-01).")
+    parser.add_argument("--car-ownership-input", help="Cached ACS tract JSON; skips the Census API fetch.")
     parser.add_argument("--refresh", action="store_true", help="Force fresh fetches even if cached.")
     parser.add_argument("--overpass-url", default=parking_osm.OVERPASS_URL)
     parser.add_argument("--reference-dir", help="Override the bundled boundary directory.")
@@ -28,6 +29,7 @@ def main(argv: list[str] | None = None) -> int:
         parking_input=args.parking_input,
         permit_input=args.permit_input,
         complaints_input=args.complaints_input,
+        car_ownership_input=args.car_ownership_input,
         refresh=args.refresh,
         overpass_url=args.overpass_url,
         reference_dir=args.reference_dir,

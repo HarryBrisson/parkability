@@ -1,7 +1,7 @@
 {
   "source": "parkability",
   "source_url": "https://github.com/HarryBrisson/parkability",
-  "collected_at": "2026-06-17T22:54:53+00:00",
+  "collected_at": "2026-06-17T23:02:15+00:00",
   "metric_geography_coverage": {
     "offstreet_parking_sites_per_sqkm": [
       "ward",
@@ -14,6 +14,11 @@
       "zip"
     ],
     "parking_311_share_of_local_complaints_pct": [
+      "ward",
+      "community_area",
+      "zip"
+    ],
+    "vehicles_per_household": [
       "ward",
       "community_area",
       "zip"
@@ -45,6 +50,13 @@
       "share_metric": "parking_311_share_of_local_complaints_pct = parking complaints / all local 311 complaints (excluding info-only + aircraft-noise bulk types), to control for how much each area reports overall.",
       "caveat": "Current resident-reported signal (abandoned-vehicle + bike-lane parking complaints). Reflects reporting propensity too; abandoned-vehicle reports also track disinvestment, not only scarcity. One weighted signal, not the whole."
     },
+    "car_ownership": {
+      "name": "Census ACS 5-year B25044 (vehicles) + B01003 (population)",
+      "mode": "acs:2023",
+      "year": 2023,
+      "method": "tract values summed to geographies by tract centroid (gazetteer).",
+      "note": null
+    },
     "permit_zones": {
       "name": "Chicago Residential Permit Zones (Data Portal u9xt-hiju)",
       "mode": "soda:https://data.cityofchicago.org/resource/u9xt-hiju.json",
@@ -60,6 +72,7 @@
       "Aircraft Noise Complaint"
     ],
     "parking_complaints_ward_total": 176228,
+    "tracts_total": 1332,
     "permit_block_faces_assigned": 10005,
     "permit_block_faces_unknown_ward": 141
   },

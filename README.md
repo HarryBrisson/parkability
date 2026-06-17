@@ -18,6 +18,7 @@ metrics** that the Penlight explorer lets you weight yourself. It models parking
 | `offstreet_parking_sites_per_sqkm` | OSM off-street parking density (supply) | ward · community area · zip | higher |
 | `parking_311_complaints_per_sqkm` | 311 abandoned-vehicle + bike-lane parking complaints (stress) | ward · community area · zip | lower |
 | `parking_311_share_of_local_complaints_pct` | parking complaints as a share of local 311 activity (reporting-controlled) | ward · community area · zip | lower |
+| `vehicles_per_household` | ACS cars per household (demand) | ward · community area · zip | lower |
 | `permit_zone_block_faces_per_sqkm` | residential permit-zone density (scarcity) | ward | lower |
 
 The **share** metric expresses parking complaints as a fraction of all *local* 311 activity
@@ -34,6 +35,8 @@ things.** Validated against real data:
 - Permit-zone density peaks in dense North/Central wards (Lakeview, Lincoln Park, River
   North, Wicker Park) and bottoms out on the periphery — a clean scarcity signal.
 - Off-street supply concentrates downtown (the Loop alone tags ~9,900 garage spaces).
+- Car ownership is lowest in the transit-dense North lakefront / downtown (Ward 2: 0.56
+  veh/household) and highest in the SW/NW bungalow belt (Ward 23: 1.85) — the demand side.
 - 311 parking complaints peak in NW/W working-class wards (Belmont Cragin, Portage Park) and
   are lowest in the dense, scarce-parking North/Central wards — **even as a reporting-controlled
   share** (9% of local 311 in the top wards vs ~2% in the Loop / Lincoln Park / River North).
@@ -41,9 +44,8 @@ things.** Validated against real data:
   different dimension. (The truer "illegal parking" subtype, bike-lane complaints, is kept as a
   breakdown but is sparse — ~3.2k since 2023.) Methodology discloses this; weight accordingly.
 
-## Roadmap (Phase 2 cont.)
+## Roadmap
 
-- `vehicles_per_household` (ACS B25044) and population normalization (ACS B01003) → per-capita supply.
 - `parking_tickets_per_1000_residents_2018` — illegal-parking density, **clearly dated**
   (the only comprehensive public set ends May 2018; refresh requires a FOIA to the Dept. of
   Finance) and **enforcement-biased** (normalized + caveated, never raw). Lower priority now
@@ -73,12 +75,18 @@ This metric was **nominated by a resident of Ward 1** — see [NOMINATION.md](NO
 ## Run it
 
 ```bash
-python -m parkability                 # live fetch (OSM Overpass + Chicago Data Portal)
+python -m parkability                 # live fetch (OSM Overpass + Chicago Data Portal + ACS)
 python -m parkability --refresh       # force fresh fetch
 python -m parkability \
-  --parking-input data/fixtures/sample_parking.json \
-  --permit-input data/fixtures/sample_permit_zones.json   # offline (tests use these)
+  --parking-input    data/fixtures/sample_parking.json \
+  --permit-input     data/fixtures/sample_permit_zones.json \
+  --complaints-input data/fixtures/sample_311.json \
+  --car-ownership-input data/fixtures/sample_car_ownership.json   # offline (tests use these)
 ```
+
+The car-ownership metric needs a **free Census API key** — set `CENSUS_API_KEY`
+(https://api.census.gov/data/key_signup.html). Without it the run still produces the
+supply / scarcity / 311 metrics and just skips `vehicles_per_household`.
 
 Standard library only — point-in-polygon, length, and area math are pure Python
 (`geometry.py`, `measure.py`); no shapely/geopandas. Tests: `python -m pytest`.

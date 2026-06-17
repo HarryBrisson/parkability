@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any
 
 from .geographies import GeographyIndex, GeographySpec, load_all
-from .sources import complaints_311, parking_osm, permit_zones
+from .sources import car_ownership, complaints_311, parking_osm, permit_zones
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = REPO_ROOT / "data" / "processed"
@@ -35,6 +35,7 @@ PARKING_METRIC = "offstreet_parking_sites_per_sqkm"
 PERMIT_METRIC = "permit_zone_block_faces_per_sqkm"
 COMPLAINTS_METRIC = "parking_311_complaints_per_sqkm"
 COMPLAINTS_SHARE_METRIC = "parking_311_share_of_local_complaints_pct"
+VEHICLES_METRIC = "vehicles_per_household"
 
 
 def _round(value: float | None, places: int = 2) -> float | None:
@@ -62,6 +63,26 @@ def assign_parking(payload: dict[str, Any], indexes: dict[str, GeographyIndex]):
     return accum, dict(audit)
 
 
+def assign_tracts(records: list[dict[str, Any]], indexes: dict[str, GeographyIndex]):
+    """Sum tract car-ownership/population into each geography by tract centroid."""
+    accum = {
+        key: defaultdict(lambda: {"vehicles": 0, "households": 0, "population": 0})
+        for key in indexes
+    }
+    audit = Counter()
+    for record in records:
+        audit["tracts_total"] += 1
+        for key, index in indexes.items():
+            area_id = index.assign(record["lat"], record["lng"])
+            if area_id is None:
+                continue
+            bucket = accum[key][area_id]
+            bucket["vehicles"] += record["vehicles"]
+            bucket["households"] += record["households"]
+            bucket["population"] += record["population"]
+    return accum, dict(audit)
+
+
 def assign_permit_zones(rows: list[dict[str, Any]], ward_index: GeographyIndex):
     by_ward = defaultdict(lambda: {"block_faces": 0, "buffer": 0, "zones": set()})
     audit = Counter()
@@ -85,6 +106,7 @@ def build_summary(
     index: GeographyIndex,
     parking_accum: dict[str, dict[str, int]],
     complaints_counts: dict[str, dict[str, int]],
+    tracts_accum: dict[str, dict[str, int]],
     permit_by_ward: dict[str, dict[str, Any]] | None,
 ) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
@@ -93,6 +115,7 @@ def build_summary(
         complaints = complaints_counts.get(
             area.area_id, {"abandoned": 0, "bike_lane": 0, "parking_total": 0, "local_total": 0}
         )
+        demand = tracts_accum.get(area.area_id, {"vehicles": 0, "households": 0, "population": 0})
         area_km2 = area.area_km2
         parking_density = bucket["site_count"] / area_km2 if area_km2 > 0 else None
         parking_total = complaints["parking_total"]
@@ -114,6 +137,10 @@ def build_summary(
             "local_311_complaint_count": local_total,
             COMPLAINTS_METRIC: _round(complaints_density),
             COMPLAINTS_SHARE_METRIC: _round(complaints_share, 3),
+            "population": demand["population"],
+            "households": demand["households"],
+            "vehicles": demand["vehicles"],
+            VEHICLES_METRIC: _round(demand["vehicles"] / demand["households"], 3) if demand["households"] > 0 else None,
         }
         if permit_by_ward is not None:
             permit = permit_by_ward.get(area.area_id)
@@ -144,7 +171,9 @@ def run(
     parking_input: str | Path | None = None,
     permit_input: str | Path | None = None,
     complaints_input: str | Path | None = None,
+    car_ownership_input: str | Path | None = None,
     complaints_since: str = complaints_311.DEFAULT_SINCE,
+    acs_year: int = car_ownership.DEFAULT_YEAR,
     refresh: bool = False,
     overpass_url: str = parking_osm.OVERPASS_URL,
     reference_dir: Path | None = None,
@@ -177,7 +206,23 @@ def run(
     complaints_counts = complaints_data["counts"]
     complaints_audit = complaints_data["audit"]
 
+    # Car ownership / population is optional: it needs a free Census API key, so a
+    # clone without one still produces the supply / scarcity / 311 metrics.
+    car_ownership_note = None
+    if car_ownership_input:
+        tract_records = car_ownership.load_cached(car_ownership_input)
+        car_ownership_mode = f"cached:{car_ownership_input}"
+    else:
+        try:
+            tract_records = car_ownership.fetch(year=acs_year, refresh=refresh)
+            car_ownership_mode = f"acs:{acs_year}"
+        except RuntimeError as error:
+            tract_records = []
+            car_ownership_mode = "skipped"
+            car_ownership_note = str(error)
+
     parking_accum, parking_audit = assign_parking(parking_payload, indexes)
+    tracts_accum, tracts_audit = assign_tracts(tract_records, indexes)
     permit_by_ward, permit_audit = assign_permit_zones(permit_rows, ward_index)
 
     output_dir = Path(output_dir)
@@ -186,7 +231,8 @@ def run(
     for spec_key, index in indexes.items():
         permit_arg = permit_by_ward if spec_key == "ward" else None
         rows = build_summary(
-            index.spec, index, parking_accum[spec_key], complaints_counts.get(spec_key, {}), permit_arg
+            index.spec, index, parking_accum[spec_key], complaints_counts.get(spec_key, {}),
+            tracts_accum[spec_key], permit_arg,
         )
         summaries[spec_key] = rows
         _write_outputs(output_dir, spec_key, rows)
@@ -199,6 +245,7 @@ def run(
             PARKING_METRIC: ["ward", "community_area", "zip"],
             COMPLAINTS_METRIC: ["ward", "community_area", "zip"],
             COMPLAINTS_SHARE_METRIC: ["ward", "community_area", "zip"],
+            VEHICLES_METRIC: (["ward", "community_area", "zip"] if tract_records else []),
             PERMIT_METRIC: ["ward"],
         },
         "sources": {
@@ -226,6 +273,13 @@ def run(
                     "also track disinvestment, not only scarcity. One weighted signal, not the whole."
                 ),
             },
+            "car_ownership": {
+                "name": "Census ACS 5-year B25044 (vehicles) + B01003 (population)",
+                "mode": car_ownership_mode,
+                "year": acs_year,
+                "method": "tract values summed to geographies by tract centroid (gazetteer).",
+                "note": car_ownership_note,
+            },
             "permit_zones": {
                 "name": "Chicago Residential Permit Zones (Data Portal u9xt-hiju)",
                 "mode": permit_mode,
@@ -237,7 +291,7 @@ def run(
                 ),
             },
         },
-        "audit": {**parking_audit, **complaints_audit, **permit_audit},
+        "audit": {**parking_audit, **complaints_audit, **tracts_audit, **permit_audit},
         "totals": {
             "wards": len(summaries["ward"]),
             "community_areas": len(summaries["community_area"]),

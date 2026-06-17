@@ -1,0 +1,34 @@
+[
+  {
+    "geoid": "17031000001",
+    "lat": 41.90824468627451,
+    "lng": -87.68094280392157,
+    "households": 60,
+    "vehicles": 40,
+    "population": 150
+  },
+  {
+    "geoid": "17031000002",
+    "lat": 41.90844468627451,
+    "lng": -87.68074280392156,
+    "households": 40,
+    "vehicles": 40,
+    "population": 100
+  },
+  {
+    "geoid": "17031000003",
+    "lat": 41.903998,
+    "lng": -87.625172,
+    "households": 50,
+    "vehicles": 75,
+    "population": 120
+  },
+  {
+    "geoid": "17031000099",
+    "lat": 40.0,
+    "lng": -90.0,
+    "households": 99,
+    "vehicles": 99,
+    "population": 99
+  }
+]
