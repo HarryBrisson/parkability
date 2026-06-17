@@ -11,32 +11,45 @@ metrics** that the Penlight explorer lets you weight yourself. It models parking
 > Latest run: **13,748** off-street parking sites · **10,005** active permit-zone block
 > faces · 50 wards / 77 community areas / 59 ZIPs.
 
-## Metrics (Phase 1)
+## Metrics
 
 | metric | meaning | geographies | toward "easier to park" |
 | --- | --- | --- | --- |
 | `offstreet_parking_sites_per_sqkm` | OSM off-street parking density (supply) | ward · community area · zip | higher |
+| `parking_311_complaints_per_sqkm` | 311 abandoned-vehicle + bike-lane parking complaints (stress) | ward · community area · zip | lower |
 | `permit_zone_block_faces_per_sqkm` | residential permit-zone density (scarcity) | ward | lower |
 
 The permit-zone signal is deliberately central: the city designates these zones *where
 residents compete for scarce street parking*, so it's a clean "hard to park here" signal —
 and, unlike ticket counts, **it is not confounded by enforcement intensity**.
 
-Validation from real data: permit-zone density peaks in the dense North/Central wards
-(Lakeview, Lincoln Park, River North, Wicker Park) and bottoms out on the periphery;
-off-street supply concentrates downtown (the Loop alone tags ~9,900 garage spaces).
+**These are separate, weightable components, not one score, because they measure different
+things.** Validated against real data:
+- Permit-zone density peaks in dense North/Central wards (Lakeview, Lincoln Park, River
+  North, Wicker Park) and bottoms out on the periphery — a clean scarcity signal.
+- Off-street supply concentrates downtown (the Loop alone tags ~9,900 garage spaces).
+- 311 parking complaints peak in NW/W working-class wards (Belmont Cragin, Portage Park),
+  **not** the scarce North Side — so this signal tracks vehicle-nuisance and reporting
+  propensity, a different dimension than scarcity. (The truer "illegal parking" subtype,
+  bike-lane complaints, is too sparse to stand alone.) Methodology discloses this; weight
+  accordingly.
 
-## Roadmap (Phase 2)
+## Roadmap (Phase 2 cont.)
 
 - `vehicles_per_household` (ACS B25044) and population normalization (ACS B01003) → per-capita supply.
 - `parking_tickets_per_1000_residents_2018` — illegal-parking density, **clearly dated**
   (the only comprehensive public set ends May 2018; refresh requires a FOIA to the Dept. of
-  Finance) and **enforcement-biased** (normalized + caveated, never raw).
+  Finance) and **enforcement-biased** (normalized + caveated, never raw). Lower priority now
+  that current 311 complaints cover the resident-report angle.
 - Geocode permit-zone block faces → community-area / ZIP permit coverage (the source has no
   geometry, only built-in ward assignment, so those rollups need a one-time geocode).
 
 Excluded by design: a single composite index; car-related crime (a weak, confounded proxy);
 metered-space supply (no clean official open feed).
+
+## Nomination
+
+This metric was **nominated by a resident of Ward 1** — see [NOMINATION.md](NOMINATION.md).
 
 ## Outputs
 

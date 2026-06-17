@@ -1,15 +1,21 @@
 import json
 from pathlib import Path
 
-from parkability.pipeline import PARKING_METRIC, PERMIT_METRIC, run
+from parkability.pipeline import COMPLAINTS_METRIC, PARKING_METRIC, PERMIT_METRIC, run
 
 FIXTURES = Path(__file__).resolve().parent.parent / "data" / "fixtures"
 PARKING = FIXTURES / "sample_parking.json"
 PERMIT = FIXTURES / "sample_permit_zones.json"
+COMPLAINTS = FIXTURES / "sample_311.json"
 
 
 def _run(tmp_path):
-    return run(parking_input=PARKING, permit_input=PERMIT, output_dir=tmp_path)
+    return run(
+        parking_input=PARKING,
+        permit_input=PERMIT,
+        complaints_input=COMPLAINTS,
+        output_dir=tmp_path,
+    )
 
 
 def test_writes_all_three_geographies(tmp_path):
@@ -50,6 +56,22 @@ def test_permit_zones_ward_only_with_buffer_and_crossward(tmp_path):
     # Ward 02: its own face + the cross-ward face = 2.
     assert by_ward["02"]["permit_zone_block_face_count"] == 2
     assert by_ward["01"][PERMIT_METRIC] >= 0
+
+
+def test_311_complaints_assigned_across_geographies(tmp_path):
+    result = _run(tmp_path)
+    by_ward = {r["area_id"]: r for r in result["summaries"]["ward"]}
+    # Ward 01: 2 abandoned + 1 bike lane = 3; missing-coords + wrong-type rows skipped.
+    assert by_ward["01"]["parking_311_complaint_count"] == 3
+    assert by_ward["01"]["parking_311_abandoned_vehicle_count"] == 2
+    assert by_ward["01"]["parking_311_bike_lane_count"] == 1
+    assert by_ward["02"]["parking_311_complaint_count"] == 1
+    assert result["metadata"]["audit"]["complaints_311_total"] == 4  # 2 unusable rows dropped
+    # 311 is a point-based signal, so it is available for all three geographies.
+    assert set(result["metadata"]["metric_geography_coverage"][COMPLAINTS_METRIC]) == {
+        "ward", "community_area", "zip",
+    }
+    assert COMPLAINTS_METRIC in result["summaries"]["zip"][0]
 
 
 def test_permit_metric_absent_from_non_ward_geographies(tmp_path):

@@ -1,0 +1,41 @@
+[
+  {
+    "sr_type": "Abandoned Vehicle Complaint",
+    "latitude": "41.908245",
+    "longitude": "-87.680943",
+    "ward": "01",
+    "status": "Open"
+  },
+  {
+    "sr_type": "Abandoned Vehicle Complaint",
+    "latitude": "41.908445",
+    "longitude": "-87.680743",
+    "ward": "01",
+    "status": "Open"
+  },
+  {
+    "sr_type": "Vehicle Parked in Bike Lane Complaint",
+    "latitude": "41.908045",
+    "longitude": "-87.681143",
+    "ward": "01",
+    "status": "Open"
+  },
+  {
+    "sr_type": "Abandoned Vehicle Complaint",
+    "latitude": "41.903998",
+    "longitude": "-87.625172",
+    "ward": "01",
+    "status": "Open"
+  },
+  {
+    "sr_type": "Abandoned Vehicle Complaint",
+    "latitude": "",
+    "longitude": "",
+    "status": "Open"
+  },
+  {
+    "sr_type": "Pothole in Street Complaint",
+    "latitude": "41.90824468627451",
+    "longitude": "-87.68094280392157"
+  }
+]

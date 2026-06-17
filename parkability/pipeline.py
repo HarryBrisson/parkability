@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any
 
 from .geographies import GeographyIndex, GeographySpec, load_all
-from .sources import parking_osm, permit_zones
+from .sources import complaints_311, parking_osm, permit_zones
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = REPO_ROOT / "data" / "processed"
@@ -33,6 +33,7 @@ SOURCE_URL = "https://github.com/HarryBrisson/parkability"
 # Metrics available per geography (permit zones are ward-only until geocoded).
 PARKING_METRIC = "offstreet_parking_sites_per_sqkm"
 PERMIT_METRIC = "permit_zone_block_faces_per_sqkm"
+COMPLAINTS_METRIC = "parking_311_complaints_per_sqkm"
 
 
 def _round(value: float | None, places: int = 2) -> float | None:
@@ -60,6 +61,25 @@ def assign_parking(payload: dict[str, Any], indexes: dict[str, GeographyIndex]):
     return accum, dict(audit)
 
 
+def assign_complaints(rows: list[dict[str, Any]], indexes: dict[str, GeographyIndex]):
+    """Assign each parking-related 311 complaint to every geography."""
+    accum = {
+        key: defaultdict(lambda: {"total": 0, "abandoned": 0, "bike_lane": 0})
+        for key in indexes
+    }
+    audit = Counter()
+    for lat, lng, short in complaints_311.iter_complaints(rows):
+        audit["complaints_311_total"] += 1
+        for key, index in indexes.items():
+            area_id = index.assign(lat, lng)
+            if area_id is None:
+                continue
+            bucket = accum[key][area_id]
+            bucket["total"] += 1
+            bucket[short] += 1
+    return accum, dict(audit)
+
+
 def assign_permit_zones(rows: list[dict[str, Any]], ward_index: GeographyIndex):
     by_ward = defaultdict(lambda: {"block_faces": 0, "buffer": 0, "zones": set()})
     audit = Counter()
@@ -82,13 +102,16 @@ def build_summary(
     spec: GeographySpec,
     index: GeographyIndex,
     parking_accum: dict[str, dict[str, int]],
+    complaints_accum: dict[str, dict[str, int]],
     permit_by_ward: dict[str, dict[str, Any]] | None,
 ) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     for area in index.areas():
         bucket = parking_accum.get(area.area_id, {"site_count": 0, "capacity": 0, "capacity_known": 0})
+        complaints = complaints_accum.get(area.area_id, {"total": 0, "abandoned": 0, "bike_lane": 0})
         area_km2 = area.area_km2
         parking_density = bucket["site_count"] / area_km2 if area_km2 > 0 else None
+        complaints_density = complaints["total"] / area_km2 if area_km2 > 0 else None
         row: dict[str, Any] = {
             "area_type": spec.key,
             "area_id": area.area_id,
@@ -98,6 +121,10 @@ def build_summary(
             "offstreet_parking_capacity_spaces": bucket["capacity"],
             "offstreet_parking_capacity_known_sites": bucket["capacity_known"],
             PARKING_METRIC: _round(parking_density),
+            "parking_311_complaint_count": complaints["total"],
+            "parking_311_abandoned_vehicle_count": complaints["abandoned"],
+            "parking_311_bike_lane_count": complaints["bike_lane"],
+            COMPLAINTS_METRIC: _round(complaints_density),
         }
         if permit_by_ward is not None:
             permit = permit_by_ward.get(area.area_id)
@@ -127,6 +154,8 @@ def run(
     *,
     parking_input: str | Path | None = None,
     permit_input: str | Path | None = None,
+    complaints_input: str | Path | None = None,
+    complaints_since: str = complaints_311.DEFAULT_SINCE,
     refresh: bool = False,
     overpass_url: str = parking_osm.OVERPASS_URL,
     reference_dir: Path | None = None,
@@ -150,7 +179,15 @@ def run(
         permit_rows = permit_zones.fetch(refresh=refresh)
         permit_mode = f"soda:{permit_zones.PERMIT_ZONES_URL}"
 
+    if complaints_input:
+        complaint_rows = complaints_311.load_cached(complaints_input)
+        complaints_mode = f"cached:{complaints_input}"
+    else:
+        complaint_rows = complaints_311.fetch(since=complaints_since, refresh=refresh)
+        complaints_mode = f"soda:{complaints_311.REQUESTS_URL} since {complaints_since}"
+
     parking_accum, parking_audit = assign_parking(parking_payload, indexes)
+    complaints_accum, complaints_audit = assign_complaints(complaint_rows, indexes)
     permit_by_ward, permit_audit = assign_permit_zones(permit_rows, ward_index)
 
     output_dir = Path(output_dir)
@@ -158,7 +195,7 @@ def run(
     summaries: dict[str, list[dict[str, Any]]] = {}
     for spec_key, index in indexes.items():
         permit_arg = permit_by_ward if spec_key == "ward" else None
-        rows = build_summary(index.spec, index, parking_accum[spec_key], permit_arg)
+        rows = build_summary(index.spec, index, parking_accum[spec_key], complaints_accum[spec_key], permit_arg)
         summaries[spec_key] = rows
         _write_outputs(output_dir, spec_key, rows)
 
@@ -168,6 +205,7 @@ def run(
         "collected_at": (collected_at or datetime.now(UTC)).replace(microsecond=0).isoformat(),
         "metric_geography_coverage": {
             PARKING_METRIC: ["ward", "community_area", "zip"],
+            COMPLAINTS_METRIC: ["ward", "community_area", "zip"],
             PERMIT_METRIC: ["ward"],
         },
         "sources": {
@@ -176,6 +214,18 @@ def run(
                 "mode": parking_mode,
                 "attribution": "© OpenStreetMap contributors (ODbL)",
                 "caveat": "capacity tag is incomplete; site count is the robust measure.",
+            },
+            "parking_311_complaints": {
+                "name": "Chicago 311 parking complaints (Data Portal v6vf-nfxy)",
+                "mode": complaints_mode,
+                "page": complaints_311.SOURCE_PAGE,
+                "sr_types": list(complaints_311.PARKING_SR_TYPES),
+                "since": complaints_since,
+                "caveat": (
+                    "Current resident-reported signal (abandoned-vehicle + bike-lane parking "
+                    "complaints). Reflects reporting propensity too; abandoned-vehicle reports "
+                    "also track disinvestment, not only scarcity. One weighted signal, not the whole."
+                ),
             },
             "permit_zones": {
                 "name": "Chicago Residential Permit Zones (Data Portal u9xt-hiju)",
@@ -188,7 +238,7 @@ def run(
                 ),
             },
         },
-        "audit": {**parking_audit, **permit_audit},
+        "audit": {**parking_audit, **complaints_audit, **permit_audit},
         "totals": {
             "wards": len(summaries["ward"]),
             "community_areas": len(summaries["community_area"]),

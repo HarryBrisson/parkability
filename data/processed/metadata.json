@@ -1,9 +1,14 @@
 {
   "source": "parkability",
   "source_url": "https://github.com/HarryBrisson/parkability",
-  "collected_at": "2026-06-17T22:13:44+00:00",
+  "collected_at": "2026-06-17T22:34:23+00:00",
   "metric_geography_coverage": {
     "offstreet_parking_sites_per_sqkm": [
+      "ward",
+      "community_area",
+      "zip"
+    ],
+    "parking_311_complaints_per_sqkm": [
       "ward",
       "community_area",
       "zip"
@@ -19,6 +24,17 @@
       "attribution": "\u00a9 OpenStreetMap contributors (ODbL)",
       "caveat": "capacity tag is incomplete; site count is the robust measure."
     },
+    "parking_311_complaints": {
+      "name": "Chicago 311 parking complaints (Data Portal v6vf-nfxy)",
+      "mode": "soda:https://data.cityofchicago.org/resource/v6vf-nfxy.json since 2023-01-01",
+      "page": "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy",
+      "sr_types": [
+        "Abandoned Vehicle Complaint",
+        "Vehicle Parked in Bike Lane Complaint"
+      ],
+      "since": "2023-01-01",
+      "caveat": "Current resident-reported signal (abandoned-vehicle + bike-lane parking complaints). Reflects reporting propensity too; abandoned-vehicle reports also track disinvestment, not only scarcity. One weighted signal, not the whole."
+    },
     "permit_zones": {
       "name": "Chicago Residential Permit Zones (Data Portal u9xt-hiju)",
       "mode": "soda:https://data.cityofchicago.org/resource/u9xt-hiju.json",
@@ -28,6 +44,7 @@
   },
   "audit": {
     "parking_sites_total": 13748,
+    "complaints_311_total": 176284,
     "permit_block_faces_assigned": 10005,
     "permit_block_faces_unknown_ward": 141
   },
