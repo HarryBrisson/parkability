@@ -1,78 +1,78 @@
-area_type,area_id,display_name,area_km2,offstreet_parking_site_count,offstreet_parking_capacity_spaces,offstreet_parking_capacity_known_sites,offstreet_parking_sites_per_sqkm,parking_311_complaint_count,parking_311_abandoned_vehicle_count,parking_311_bike_lane_count,parking_311_complaints_per_sqkm
-community_area,01,Rogers Park,4.7628,132,607,2,27.71,2875,2860,15,603.64
-community_area,02,West Ridge,9.13,224,0,0,24.53,5116,5104,12,560.35
-community_area,03,Uptown,6.0411,315,46,8,52.14,1919,1869,50,317.66
-community_area,04,Lincoln Square,6.6215,99,9,1,14.95,2138,2109,29,322.89
-community_area,05,North Center,5.283,117,0,0,22.15,2135,2050,85,404.13
-community_area,06,Lake View,8.1049,186,0,1,22.95,2146,2099,47,264.78
-community_area,07,Lincoln Park,8.2156,235,0,0,28.6,1823,1629,194,221.89
-community_area,08,Near North Side,7.1123,318,22,1,44.71,896,788,108,125.98
-community_area,09,Edison Park,2.9358,7,0,0,2.38,375,374,1,127.73
-community_area,10,Norwood Park,11.3133,57,311,2,5.04,2334,2328,6,206.31
-community_area,11,Jefferson Park,6.0162,48,17,1,7.98,2005,1997,8,333.27
-community_area,12,Forest Glen,8.2682,107,0,0,12.94,863,862,1,104.38
-community_area,13,North Park,6.5237,118,127,6,18.09,1204,1197,7,184.56
-community_area,14,Albany Park,4.9708,96,119,4,19.31,2698,2691,7,542.77
-community_area,15,Portage Park,10.2197,125,71,2,12.23,5650,5640,10,552.85
-community_area,16,Irving Park,8.316,109,14,2,13.11,4110,4064,46,494.23
-community_area,17,Dunning,9.6034,70,61,1,7.29,4630,4623,7,482.12
-community_area,18,Montclare,2.5657,32,0,0,12.47,1277,1277,0,497.72
-community_area,19,Belmont Cragin,10.12,136,402,3,13.44,7823,7814,9,773.02
-community_area,20,Hermosa,3.0261,24,0,0,7.93,1543,1540,3,509.9
-community_area,21,Avondale,5.1321,114,8,1,22.21,3490,3441,49,680.03
-community_area,22,Logan Square,9.2722,248,6,1,26.75,4091,3990,101,441.21
-community_area,23,Humboldt Park,9.3152,130,0,0,13.96,4519,4509,10,485.12
-community_area,24,West Town,11.8171,481,136,6,40.7,4224,3911,313,357.45
-community_area,25,Austin,18.4647,254,15,1,13.76,9586,9584,2,519.15
-community_area,26,West Garfield Park,3.3502,69,0,0,20.6,1939,1939,0,578.77
-community_area,27,East Garfield Park,4.9995,103,0,0,20.6,2027,2017,10,405.44
-community_area,28,Near West Side,14.7021,750,229,2,51.01,2400,2043,357,163.24
-community_area,29,North Lawndale,8.2942,177,30,2,21.34,3075,3064,11,370.74
-community_area,30,South Lawndale,11.8923,93,0,0,7.82,4102,4095,7,344.93
-community_area,31,Lower West Side,7.573,156,0,0,20.6,1978,1881,97,261.19
-community_area,32,Loop,4.3063,224,9655,12,52.02,821,771,50,190.65
-community_area,33,Near South Side,4.6183,173,6425,6,37.46,549,531,18,118.87
-community_area,34,Armour Square,2.581,81,66,1,31.38,595,581,14,230.53
-community_area,35,Douglas,4.2638,154,0,0,36.12,596,591,5,139.78
-community_area,36,Oakland,1.5717,45,45,1,28.63,353,351,2,224.6
-community_area,37,Fuller Park,1.8421,17,0,0,9.23,337,337,0,182.94
-community_area,38,Grand Boulevard,4.5023,94,0,0,20.88,2163,2159,4,480.42
-community_area,39,Kenwood,2.6996,53,0,0,19.63,754,747,7,279.3
-community_area,40,Washington Park,3.9306,45,148,2,11.45,667,667,0,169.69
-community_area,41,Hyde Park,4.1874,152,0,0,36.3,596,580,16,142.33
-community_area,42,Woodlawn,5.3595,117,25,1,21.83,1500,1499,1,279.88
-community_area,43,South Shore,7.5952,135,0,0,17.77,3413,3413,0,449.36
-community_area,44,Chatham,7.6399,71,0,0,9.29,2327,2326,1,304.59
-community_area,45,Avalon Park,3.2298,21,0,0,6.5,728,728,0,225.4
-community_area,46,South Chicago,8.6553,72,698,2,8.32,2517,2515,2,290.8
-community_area,47,Burnside,1.5793,3,0,0,1.9,168,168,0,106.38
-community_area,48,Calumet Heights,4.5353,32,0,0,7.06,963,963,0,212.33
-community_area,49,Roseland,12.4557,122,146,4,9.79,2627,2627,0,210.91
-community_area,50,Pullman,5.472,58,0,0,10.6,639,639,0,116.78
-community_area,51,South Deering,28.1799,37,0,0,1.31,1216,1216,0,43.15
-community_area,52,East Side,7.7186,55,0,0,7.13,2067,2066,1,267.79
-community_area,53,West Pullman,9.2109,79,24,1,8.58,1820,1820,0,197.59
-community_area,54,Riverdale,9.1177,55,126,1,6.03,168,168,0,18.43
-community_area,55,Hegewisch,13.5459,74,1569,3,5.46,587,585,2,43.33
-community_area,56,Garfield Ridge,10.9287,92,39,1,8.42,3042,3039,3,278.35
-community_area,57,Archer Heights,5.2019,61,390,1,11.73,1664,1663,1,319.88
-community_area,58,Brighton Park,7.0385,95,157,1,13.5,3327,3302,25,472.69
-community_area,59,Mckinley Park,3.6481,61,69,1,16.72,1208,1203,5,331.13
-community_area,60,Bridgeport,5.4081,103,3045,5,19.05,2477,2452,25,458.02
-community_area,61,New City,12.4973,134,0,0,10.72,4137,4135,2,331.03
-community_area,62,West Elsdon,3.0348,17,0,0,5.6,2120,2118,2,698.56
-community_area,63,Gage Park,5.6863,64,200,1,11.26,3886,3882,4,683.4
-community_area,64,Clearing,6.5868,31,389,2,4.71,2332,2330,2,354.04
-community_area,65,West Lawn,7.6443,47,0,0,6.15,3221,3218,3,421.36
-community_area,66,Chicago Lawn,9.1141,73,0,0,8.01,4960,4960,0,544.21
-community_area,67,West Englewood,8.1429,69,235,1,8.47,2851,2850,1,350.12
-community_area,68,Englewood,7.9486,67,0,0,8.43,1934,1933,1,243.31
-community_area,69,Greater Grand Crossing,9.1808,81,92,1,8.82,2910,2908,2,316.97
-community_area,70,Ashburn,12.5675,60,0,0,4.77,2566,2565,1,204.18
-community_area,71,Auburn Gresham,9.7497,225,0,0,23.08,3049,3049,0,312.73
-community_area,72,Beverly,8.2198,18,0,0,2.19,561,561,0,68.25
-community_area,73,Washington Heights,7.3771,91,6,1,12.34,1853,1853,0,251.18
-community_area,74,Mount Greenwood,6.9933,95,0,0,13.58,463,461,2,66.21
-community_area,75,Morgan Park,8.5233,70,0,0,8.21,922,922,0,108.17
-community_area,76,Ohare,34.5114,289,1651,2,8.37,1176,1176,0,34.08
-community_area,77,Edgewater,4.4914,130,30,2,28.94,2315,2264,51,515.43
+area_type,area_id,display_name,area_km2,offstreet_parking_site_count,offstreet_parking_capacity_spaces,offstreet_parking_capacity_known_sites,offstreet_parking_sites_per_sqkm,parking_311_complaint_count,parking_311_abandoned_vehicle_count,parking_311_bike_lane_count,local_311_complaint_count,parking_311_complaints_per_sqkm,parking_311_share_of_local_complaints_pct
+community_area,01,Rogers Park,4.7628,132,607,2,27.71,2865,2844,21,38587,601.54,7.425
+community_area,02,West Ridge,9.13,224,0,0,24.53,5083,5064,19,57222,556.74,8.883
+community_area,03,Uptown,6.0411,315,46,8,52.14,1941,1851,90,46458,321.3,4.178
+community_area,04,Lincoln Square,6.6215,99,9,1,14.95,2155,2110,45,40721,325.45,5.292
+community_area,05,North Center,5.283,117,0,0,22.15,2145,2028,117,41163,406.02,5.211
+community_area,06,Lake View,8.1049,186,0,1,22.95,2193,2069,124,78663,270.58,2.788
+community_area,07,Lincoln Park,8.2156,235,0,0,28.6,1878,1613,265,77571,228.59,2.421
+community_area,08,Near North Side,7.1123,318,22,1,44.71,999,790,209,55291,140.46,1.807
+community_area,09,Edison Park,2.9358,7,0,0,2.38,374,372,2,12732,127.39,2.937
+community_area,10,Norwood Park,11.3133,57,311,2,5.04,2338,2330,8,46032,206.66,5.079
+community_area,11,Jefferson Park,6.0162,48,17,1,7.98,1999,1987,12,33398,332.27,5.985
+community_area,12,Forest Glen,8.2682,107,0,0,12.94,859,856,3,33978,103.89,2.528
+community_area,13,North Park,6.5237,118,127,6,18.09,1201,1191,10,19887,184.1,6.039
+community_area,14,Albany Park,4.9708,96,119,4,19.31,2687,2663,24,44327,540.56,6.062
+community_area,15,Portage Park,10.2197,125,71,2,12.23,5629,5613,16,79860,550.8,7.049
+community_area,16,Irving Park,8.316,109,14,2,13.11,4111,4023,88,63086,494.35,6.517
+community_area,17,Dunning,9.6034,70,61,1,7.29,4588,4579,9,47934,477.75,9.571
+community_area,18,Montclare,2.5657,32,0,0,12.47,1281,1276,5,15582,499.28,8.221
+community_area,19,Belmont Cragin,10.12,136,402,3,13.44,7787,7773,14,73476,769.47,10.598
+community_area,20,Hermosa,3.0261,24,0,0,7.93,1530,1526,4,23563,505.6,6.493
+community_area,21,Avondale,5.1321,114,8,1,22.21,3490,3401,89,46368,680.03,7.527
+community_area,22,Logan Square,9.2722,248,6,1,26.75,4169,3943,226,91431,449.62,4.56
+community_area,23,Humboldt Park,9.3152,130,0,0,13.96,4466,4438,28,59303,479.43,7.531
+community_area,24,West Town,11.8171,481,136,6,40.7,4334,3874,460,118550,366.76,3.656
+community_area,25,Austin,18.4647,254,15,1,13.76,9509,9499,10,115192,514.98,8.255
+community_area,26,West Garfield Park,3.3502,69,0,0,20.6,1941,1940,1,27381,579.37,7.089
+community_area,27,East Garfield Park,4.9995,103,0,0,20.6,2016,1991,25,30144,403.24,6.688
+community_area,28,Near West Side,14.7021,750,229,2,51.01,2679,2035,644,76631,182.22,3.496
+community_area,29,North Lawndale,8.2942,177,30,2,21.34,3040,3029,11,46482,366.52,6.54
+community_area,30,South Lawndale,11.8923,93,0,0,7.82,4100,4093,7,67875,344.76,6.041
+community_area,31,Lower West Side,7.573,156,0,0,20.6,1977,1859,118,50926,261.06,3.882
+community_area,32,Loop,4.3063,224,9655,12,52.02,889,760,129,38281,206.44,2.322
+community_area,33,Near South Side,4.6183,173,6425,6,37.46,597,531,66,15112,129.27,3.951
+community_area,34,Armour Square,2.581,81,66,1,31.38,599,579,20,14107,232.08,4.246
+community_area,35,Douglas,4.2638,154,0,0,36.12,601,595,6,11315,140.95,5.312
+community_area,36,Oakland,1.5717,45,45,1,28.63,350,344,6,4847,222.69,7.221
+community_area,37,Fuller Park,1.8421,17,0,0,9.23,333,333,0,6202,180.77,5.369
+community_area,38,Grand Boulevard,4.5023,94,0,0,20.88,2151,2147,4,24560,477.76,8.758
+community_area,39,Kenwood,2.6996,53,0,0,19.63,748,741,7,12009,277.08,6.229
+community_area,40,Washington Park,3.9306,45,148,2,11.45,663,663,0,13231,168.68,5.011
+community_area,41,Hyde Park,4.1874,152,0,0,36.3,616,582,34,17121,147.11,3.598
+community_area,42,Woodlawn,5.3595,117,25,1,21.83,1489,1487,2,24423,277.82,6.097
+community_area,43,South Shore,7.5952,135,0,0,17.77,3407,3405,2,51015,448.57,6.678
+community_area,44,Chatham,7.6399,71,0,0,9.29,2318,2285,33,42802,303.41,5.416
+community_area,45,Avalon Park,3.2298,21,0,0,6.5,722,722,0,15376,223.54,4.696
+community_area,46,South Chicago,8.6553,72,698,2,8.32,2532,2530,2,39730,292.54,6.373
+community_area,47,Burnside,1.5793,3,0,0,1.9,167,167,0,3728,105.74,4.48
+community_area,48,Calumet Heights,4.5353,32,0,0,7.06,947,947,0,21821,208.81,4.34
+community_area,49,Roseland,12.4557,122,146,4,9.79,2607,2607,0,60188,209.3,4.331
+community_area,50,Pullman,5.472,58,0,0,10.6,635,635,0,10856,116.05,5.849
+community_area,51,South Deering,28.1799,37,0,0,1.31,1210,1210,0,24418,42.94,4.955
+community_area,52,East Side,7.7186,55,0,0,7.13,2056,2054,2,24947,266.37,8.241
+community_area,53,West Pullman,9.2109,79,24,1,8.58,1810,1810,0,43729,196.51,4.139
+community_area,54,Riverdale,9.1177,55,126,1,6.03,165,165,0,4737,18.1,3.483
+community_area,55,Hegewisch,13.5459,74,1569,3,5.46,584,582,2,12018,43.11,4.859
+community_area,56,Garfield Ridge,10.9287,92,39,1,8.42,3025,3021,4,50985,276.79,5.933
+community_area,57,Archer Heights,5.2019,61,390,1,11.73,1653,1650,3,24368,317.77,6.783
+community_area,58,Brighton Park,7.0385,95,157,1,13.5,3300,3271,29,47639,468.85,6.927
+community_area,59,Mckinley Park,3.6481,61,69,1,16.72,1193,1189,4,24670,327.02,4.836
+community_area,60,Bridgeport,5.4081,103,3045,5,19.05,2470,2433,37,42213,456.72,5.851
+community_area,61,New City,12.4973,134,0,0,10.72,4122,4117,5,58217,329.83,7.08
+community_area,62,West Elsdon,3.0348,17,0,0,5.6,2115,2113,2,21845,696.92,9.682
+community_area,63,Gage Park,5.6863,64,200,1,11.26,3844,3839,5,49037,676.01,7.839
+community_area,64,Clearing,6.5868,31,389,2,4.71,2314,2312,2,28454,351.31,8.132
+community_area,65,West Lawn,7.6443,47,0,0,6.15,3198,3192,6,35473,418.35,9.015
+community_area,66,Chicago Lawn,9.1141,73,0,0,8.01,4942,4937,5,69244,542.24,7.137
+community_area,67,West Englewood,8.1429,69,235,1,8.47,2849,2846,3,50942,349.88,5.593
+community_area,68,Englewood,7.9486,67,0,0,8.43,1925,1924,1,39220,242.18,4.908
+community_area,69,Greater Grand Crossing,9.1808,81,92,1,8.82,2895,2893,2,44822,315.33,6.459
+community_area,70,Ashburn,12.5675,60,0,0,4.77,2536,2534,2,47740,201.79,5.312
+community_area,71,Auburn Gresham,9.7497,225,0,0,23.08,3014,3014,0,60786,309.14,4.958
+community_area,72,Beverly,8.2198,18,0,0,2.19,554,554,0,28673,67.4,1.932
+community_area,73,Washington Heights,7.3771,91,6,1,12.34,1854,1854,0,40208,251.32,4.611
+community_area,74,Mount Greenwood,6.9933,95,0,0,13.58,450,448,2,19129,64.35,2.352
+community_area,75,Morgan Park,8.5233,70,0,0,8.21,900,899,1,31978,105.59,2.814
+community_area,76,Ohare,34.5114,289,1651,2,8.37,1155,1153,2,9241,33.47,12.499
+community_area,77,Edgewater,4.4914,130,30,2,28.94,2356,2251,105,43268,524.56,5.445

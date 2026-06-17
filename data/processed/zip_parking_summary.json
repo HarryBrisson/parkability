@@ -8,10 +8,12 @@
     "offstreet_parking_capacity_spaces": 465,
     "offstreet_parking_capacity_known_sites": 5,
     "offstreet_parking_sites_per_sqkm": 50.57,
-    "parking_311_complaint_count": 339,
-    "parking_311_abandoned_vehicle_count": 324,
-    "parking_311_bike_lane_count": 15,
-    "parking_311_complaints_per_sqkm": 398.68
+    "parking_311_complaint_count": 338,
+    "parking_311_abandoned_vehicle_count": 320,
+    "parking_311_bike_lane_count": 18,
+    "local_311_complaint_count": 6779,
+    "parking_311_complaints_per_sqkm": 397.51,
+    "parking_311_share_of_local_complaints_pct": 4.986
   },
   {
     "area_type": "zip",
@@ -22,10 +24,12 @@
     "offstreet_parking_capacity_spaces": 7826,
     "offstreet_parking_capacity_known_sites": 3,
     "offstreet_parking_sites_per_sqkm": 31.14,
-    "parking_311_complaint_count": 29,
-    "parking_311_abandoned_vehicle_count": 26,
-    "parking_311_bike_lane_count": 3,
-    "parking_311_complaints_per_sqkm": 64.5
+    "parking_311_complaint_count": 18,
+    "parking_311_abandoned_vehicle_count": 13,
+    "parking_311_bike_lane_count": 5,
+    "local_311_complaint_count": 2401,
+    "parking_311_complaints_per_sqkm": 40.04,
+    "parking_311_share_of_local_complaints_pct": 0.75
   },
   {
     "area_type": "zip",
@@ -36,10 +40,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 30.73,
-    "parking_311_complaint_count": 70,
-    "parking_311_abandoned_vehicle_count": 70,
+    "parking_311_complaint_count": 55,
+    "parking_311_abandoned_vehicle_count": 55,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 165.48
+    "local_311_complaint_count": 2470,
+    "parking_311_complaints_per_sqkm": 130.02,
+    "parking_311_share_of_local_complaints_pct": 2.227
   },
   {
     "area_type": "zip",
@@ -50,10 +56,12 @@
     "offstreet_parking_capacity_spaces": 1350,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 45.18,
-    "parking_311_complaint_count": 37,
-    "parking_311_abandoned_vehicle_count": 37,
-    "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 92.87
+    "parking_311_complaint_count": 30,
+    "parking_311_abandoned_vehicle_count": 29,
+    "parking_311_bike_lane_count": 1,
+    "local_311_complaint_count": 1620,
+    "parking_311_complaints_per_sqkm": 75.3,
+    "parking_311_share_of_local_complaints_pct": 1.852
   },
   {
     "area_type": "zip",
@@ -64,10 +72,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 45.73,
-    "parking_311_complaint_count": 515,
-    "parking_311_abandoned_vehicle_count": 477,
-    "parking_311_bike_lane_count": 38,
-    "parking_311_complaints_per_sqkm": 152.93
+    "parking_311_complaint_count": 345,
+    "parking_311_abandoned_vehicle_count": 330,
+    "parking_311_bike_lane_count": 15,
+    "local_311_complaint_count": 11355,
+    "parking_311_complaints_per_sqkm": 102.45,
+    "parking_311_share_of_local_complaints_pct": 3.038
   },
   {
     "area_type": "zip",
@@ -78,10 +88,12 @@
     "offstreet_parking_capacity_spaces": 14,
     "offstreet_parking_capacity_known_sites": 3,
     "offstreet_parking_sites_per_sqkm": 84.44,
-    "parking_311_complaint_count": 73,
-    "parking_311_abandoned_vehicle_count": 55,
-    "parking_311_bike_lane_count": 18,
-    "parking_311_complaints_per_sqkm": 116.3
+    "parking_311_complaint_count": 31,
+    "parking_311_abandoned_vehicle_count": 21,
+    "parking_311_bike_lane_count": 10,
+    "local_311_complaint_count": 3649,
+    "parking_311_complaints_per_sqkm": 49.39,
+    "parking_311_share_of_local_complaints_pct": 0.85
   },
   {
     "area_type": "zip",
@@ -92,10 +104,12 @@
     "offstreet_parking_capacity_spaces": 12,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 59.35,
-    "parking_311_complaint_count": 929,
-    "parking_311_abandoned_vehicle_count": 673,
-    "parking_311_bike_lane_count": 256,
-    "parking_311_complaints_per_sqkm": 154.88
+    "parking_311_complaint_count": 404,
+    "parking_311_abandoned_vehicle_count": 370,
+    "parking_311_bike_lane_count": 34,
+    "local_311_complaint_count": 18991,
+    "parking_311_complaints_per_sqkm": 67.35,
+    "parking_311_share_of_local_complaints_pct": 2.127
   },
   {
     "area_type": "zip",
@@ -106,10 +120,12 @@
     "offstreet_parking_capacity_spaces": 31,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 20.46,
-    "parking_311_complaint_count": 4399,
-    "parking_311_abandoned_vehicle_count": 4323,
-    "parking_311_bike_lane_count": 76,
-    "parking_311_complaints_per_sqkm": 268.67
+    "parking_311_complaint_count": 2885,
+    "parking_311_abandoned_vehicle_count": 2865,
+    "parking_311_bike_lane_count": 20,
+    "local_311_complaint_count": 67707,
+    "parking_311_complaints_per_sqkm": 176.2,
+    "parking_311_share_of_local_complaints_pct": 4.261
   },
   {
     "area_type": "zip",
@@ -120,10 +136,12 @@
     "offstreet_parking_capacity_spaces": 73,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 11.41,
-    "parking_311_complaint_count": 5714,
-    "parking_311_abandoned_vehicle_count": 5706,
-    "parking_311_bike_lane_count": 8,
-    "parking_311_complaints_per_sqkm": 288.52
+    "parking_311_complaint_count": 4407,
+    "parking_311_abandoned_vehicle_count": 4406,
+    "parking_311_bike_lane_count": 1,
+    "local_311_complaint_count": 67105,
+    "parking_311_complaints_per_sqkm": 222.53,
+    "parking_311_share_of_local_complaints_pct": 6.567
   },
   {
     "area_type": "zip",
@@ -134,10 +152,12 @@
     "offstreet_parking_capacity_spaces": 22,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 30.71,
-    "parking_311_complaint_count": 505,
-    "parking_311_abandoned_vehicle_count": 463,
-    "parking_311_bike_lane_count": 42,
-    "parking_311_complaints_per_sqkm": 172.29
+    "parking_311_complaint_count": 265,
+    "parking_311_abandoned_vehicle_count": 254,
+    "parking_311_bike_lane_count": 11,
+    "local_311_complaint_count": 16386,
+    "parking_311_complaints_per_sqkm": 90.41,
+    "parking_311_share_of_local_complaints_pct": 1.617
   },
   {
     "area_type": "zip",
@@ -148,10 +168,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 46.78,
-    "parking_311_complaint_count": 170,
-    "parking_311_abandoned_vehicle_count": 161,
-    "parking_311_bike_lane_count": 9,
-    "parking_311_complaints_per_sqkm": 77.97
+    "parking_311_complaint_count": 121,
+    "parking_311_abandoned_vehicle_count": 120,
+    "parking_311_bike_lane_count": 1,
+    "local_311_complaint_count": 10172,
+    "parking_311_complaints_per_sqkm": 55.49,
+    "parking_311_share_of_local_complaints_pct": 1.19
   },
   {
     "area_type": "zip",
@@ -162,10 +184,12 @@
     "offstreet_parking_capacity_spaces": 118,
     "offstreet_parking_capacity_known_sites": 3,
     "offstreet_parking_sites_per_sqkm": 32.53,
-    "parking_311_complaint_count": 2484,
-    "parking_311_abandoned_vehicle_count": 2423,
-    "parking_311_bike_lane_count": 61,
-    "parking_311_complaints_per_sqkm": 250.92
+    "parking_311_complaint_count": 1622,
+    "parking_311_abandoned_vehicle_count": 1616,
+    "parking_311_bike_lane_count": 6,
+    "local_311_complaint_count": 37101,
+    "parking_311_complaints_per_sqkm": 163.85,
+    "parking_311_share_of_local_complaints_pct": 4.372
   },
   {
     "area_type": "zip",
@@ -176,10 +200,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 31.55,
-    "parking_311_complaint_count": 1276,
-    "parking_311_abandoned_vehicle_count": 1257,
-    "parking_311_bike_lane_count": 19,
-    "parking_311_complaints_per_sqkm": 254.78
+    "parking_311_complaint_count": 729,
+    "parking_311_abandoned_vehicle_count": 719,
+    "parking_311_bike_lane_count": 10,
+    "local_311_complaint_count": 25525,
+    "parking_311_complaints_per_sqkm": 145.56,
+    "parking_311_share_of_local_complaints_pct": 2.856
   },
   {
     "area_type": "zip",
@@ -190,10 +216,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 30.01,
-    "parking_311_complaint_count": 1949,
-    "parking_311_abandoned_vehicle_count": 1747,
-    "parking_311_bike_lane_count": 202,
-    "parking_311_complaints_per_sqkm": 222.43
+    "parking_311_complaint_count": 1132,
+    "parking_311_abandoned_vehicle_count": 1102,
+    "parking_311_bike_lane_count": 30,
+    "local_311_complaint_count": 48770,
+    "parking_311_complaints_per_sqkm": 129.19,
+    "parking_311_share_of_local_complaints_pct": 2.321
   },
   {
     "area_type": "zip",
@@ -204,10 +232,12 @@
     "offstreet_parking_capacity_spaces": 148,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 22.67,
-    "parking_311_complaint_count": 1560,
-    "parking_311_abandoned_vehicle_count": 1545,
-    "parking_311_bike_lane_count": 15,
-    "parking_311_complaints_per_sqkm": 252.64
+    "parking_311_complaint_count": 1163,
+    "parking_311_abandoned_vehicle_count": 1158,
+    "parking_311_bike_lane_count": 5,
+    "local_311_complaint_count": 21625,
+    "parking_311_complaints_per_sqkm": 188.35,
+    "parking_311_share_of_local_complaints_pct": 5.378
   },
   {
     "area_type": "zip",
@@ -218,10 +248,12 @@
     "offstreet_parking_capacity_spaces": 9501,
     "offstreet_parking_capacity_known_sites": 10,
     "offstreet_parking_sites_per_sqkm": 33.72,
-    "parking_311_complaint_count": 2116,
-    "parking_311_abandoned_vehicle_count": 2011,
-    "parking_311_bike_lane_count": 105,
-    "parking_311_complaints_per_sqkm": 208.01
+    "parking_311_complaint_count": 1432,
+    "parking_311_abandoned_vehicle_count": 1414,
+    "parking_311_bike_lane_count": 18,
+    "local_311_complaint_count": 31876,
+    "parking_311_complaints_per_sqkm": 140.77,
+    "parking_311_share_of_local_complaints_pct": 4.492
   },
   {
     "area_type": "zip",
@@ -232,10 +264,12 @@
     "offstreet_parking_capacity_spaces": 698,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 4.52,
-    "parking_311_complaint_count": 6850,
-    "parking_311_abandoned_vehicle_count": 6847,
-    "parking_311_bike_lane_count": 3,
-    "parking_311_complaints_per_sqkm": 163.11
+    "parking_311_complaint_count": 5479,
+    "parking_311_abandoned_vehicle_count": 5479,
+    "parking_311_bike_lane_count": 0,
+    "local_311_complaint_count": 88583,
+    "parking_311_complaints_per_sqkm": 130.46,
+    "parking_311_share_of_local_complaints_pct": 6.185
   },
   {
     "area_type": "zip",
@@ -246,10 +280,12 @@
     "offstreet_parking_capacity_spaces": 16,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 19.69,
-    "parking_311_complaint_count": 6835,
-    "parking_311_abandoned_vehicle_count": 6742,
-    "parking_311_bike_lane_count": 93,
-    "parking_311_complaints_per_sqkm": 521.7
+    "parking_311_complaint_count": 4075,
+    "parking_311_abandoned_vehicle_count": 4042,
+    "parking_311_bike_lane_count": 33,
+    "local_311_complaint_count": 70235,
+    "parking_311_complaints_per_sqkm": 311.04,
+    "parking_311_share_of_local_complaints_pct": 5.802
   },
   {
     "area_type": "zip",
@@ -260,10 +296,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 7.0,
-    "parking_311_complaint_count": 5120,
-    "parking_311_abandoned_vehicle_count": 5118,
-    "parking_311_bike_lane_count": 2,
-    "parking_311_complaints_per_sqkm": 328.8
+    "parking_311_complaint_count": 3934,
+    "parking_311_abandoned_vehicle_count": 3922,
+    "parking_311_bike_lane_count": 12,
+    "local_311_complaint_count": 70561,
+    "parking_311_complaints_per_sqkm": 252.63,
+    "parking_311_share_of_local_complaints_pct": 5.575
   },
   {
     "area_type": "zip",
@@ -274,10 +312,12 @@
     "offstreet_parking_capacity_spaces": 98,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 19.28,
-    "parking_311_complaint_count": 4741,
-    "parking_311_abandoned_vehicle_count": 4741,
+    "parking_311_complaint_count": 3865,
+    "parking_311_abandoned_vehicle_count": 3865,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 268.78
+    "local_311_complaint_count": 72797,
+    "parking_311_complaints_per_sqkm": 219.12,
+    "parking_311_share_of_local_complaints_pct": 5.309
   },
   {
     "area_type": "zip",
@@ -288,10 +328,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 8.44,
-    "parking_311_complaint_count": 2332,
-    "parking_311_abandoned_vehicle_count": 2330,
-    "parking_311_bike_lane_count": 2,
-    "parking_311_complaints_per_sqkm": 240.0
+    "parking_311_complaint_count": 1887,
+    "parking_311_abandoned_vehicle_count": 1886,
+    "parking_311_bike_lane_count": 1,
+    "local_311_complaint_count": 35192,
+    "parking_311_complaints_per_sqkm": 194.2,
+    "parking_311_share_of_local_complaints_pct": 5.362
   },
   {
     "area_type": "zip",
@@ -302,10 +344,12 @@
     "offstreet_parking_capacity_spaces": 18,
     "offstreet_parking_capacity_known_sites": 3,
     "offstreet_parking_sites_per_sqkm": 37.88,
-    "parking_311_complaint_count": 2373,
-    "parking_311_abandoned_vehicle_count": 2278,
-    "parking_311_bike_lane_count": 95,
-    "parking_311_complaints_per_sqkm": 361.04
+    "parking_311_complaint_count": 1359,
+    "parking_311_abandoned_vehicle_count": 1348,
+    "parking_311_bike_lane_count": 11,
+    "local_311_complaint_count": 44438,
+    "parking_311_complaints_per_sqkm": 206.77,
+    "parking_311_share_of_local_complaints_pct": 3.058
   },
   {
     "area_type": "zip",
@@ -316,10 +360,12 @@
     "offstreet_parking_capacity_spaces": 11,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 11.52,
-    "parking_311_complaint_count": 6473,
-    "parking_311_abandoned_vehicle_count": 6463,
-    "parking_311_bike_lane_count": 10,
-    "parking_311_complaints_per_sqkm": 449.37
+    "parking_311_complaint_count": 4529,
+    "parking_311_abandoned_vehicle_count": 4524,
+    "parking_311_bike_lane_count": 5,
+    "local_311_complaint_count": 68522,
+    "parking_311_complaints_per_sqkm": 314.41,
+    "parking_311_share_of_local_complaints_pct": 6.61
   },
   {
     "area_type": "zip",
@@ -330,10 +376,12 @@
     "offstreet_parking_capacity_spaces": 19,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 20.6,
-    "parking_311_complaint_count": 4045,
-    "parking_311_abandoned_vehicle_count": 4035,
-    "parking_311_bike_lane_count": 10,
-    "parking_311_complaints_per_sqkm": 438.62
+    "parking_311_complaint_count": 3274,
+    "parking_311_abandoned_vehicle_count": 3272,
+    "parking_311_bike_lane_count": 2,
+    "local_311_complaint_count": 40019,
+    "parking_311_complaints_per_sqkm": 355.02,
+    "parking_311_share_of_local_complaints_pct": 8.181
   },
   {
     "area_type": "zip",
@@ -344,10 +392,12 @@
     "offstreet_parking_capacity_spaces": 128,
     "offstreet_parking_capacity_known_sites": 5,
     "offstreet_parking_sites_per_sqkm": 14.67,
-    "parking_311_complaint_count": 4042,
-    "parking_311_abandoned_vehicle_count": 4002,
-    "parking_311_bike_lane_count": 40,
-    "parking_311_complaints_per_sqkm": 411.73
+    "parking_311_complaint_count": 2516,
+    "parking_311_abandoned_vehicle_count": 2504,
+    "parking_311_bike_lane_count": 12,
+    "local_311_complaint_count": 44864,
+    "parking_311_complaints_per_sqkm": 256.29,
+    "parking_311_share_of_local_complaints_pct": 5.608
   },
   {
     "area_type": "zip",
@@ -358,10 +408,12 @@
     "offstreet_parking_capacity_spaces": 607,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 29.82,
-    "parking_311_complaint_count": 2760,
-    "parking_311_abandoned_vehicle_count": 2746,
-    "parking_311_bike_lane_count": 14,
-    "parking_311_complaints_per_sqkm": 605.14
+    "parking_311_complaint_count": 1598,
+    "parking_311_abandoned_vehicle_count": 1591,
+    "parking_311_bike_lane_count": 7,
+    "local_311_complaint_count": 22942,
+    "parking_311_complaints_per_sqkm": 350.37,
+    "parking_311_share_of_local_complaints_pct": 6.965
   },
   {
     "area_type": "zip",
@@ -372,10 +424,12 @@
     "offstreet_parking_capacity_spaces": 296,
     "offstreet_parking_capacity_known_sites": 6,
     "offstreet_parking_sites_per_sqkm": 7.31,
-    "parking_311_complaint_count": 4488,
-    "parking_311_abandoned_vehicle_count": 4488,
+    "parking_311_complaint_count": 3469,
+    "parking_311_abandoned_vehicle_count": 3469,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 140.12
+    "local_311_complaint_count": 83281,
+    "parking_311_complaints_per_sqkm": 108.3,
+    "parking_311_share_of_local_complaints_pct": 4.165
   },
   {
     "area_type": "zip",
@@ -386,10 +440,12 @@
     "offstreet_parking_capacity_spaces": 389,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 6.64,
-    "parking_311_complaint_count": 10824,
-    "parking_311_abandoned_vehicle_count": 10820,
-    "parking_311_bike_lane_count": 4,
-    "parking_311_complaints_per_sqkm": 552.74
+    "parking_311_complaint_count": 7836,
+    "parking_311_abandoned_vehicle_count": 7834,
+    "parking_311_bike_lane_count": 2,
+    "local_311_complaint_count": 97756,
+    "parking_311_complaints_per_sqkm": 400.15,
+    "parking_311_share_of_local_complaints_pct": 8.016
   },
   {
     "area_type": "zip",
@@ -400,10 +456,12 @@
     "offstreet_parking_capacity_spaces": 49,
     "offstreet_parking_capacity_known_sites": 3,
     "offstreet_parking_sites_per_sqkm": 13.08,
-    "parking_311_complaint_count": 4946,
-    "parking_311_abandoned_vehicle_count": 4930,
-    "parking_311_bike_lane_count": 16,
-    "parking_311_complaints_per_sqkm": 406.8
+    "parking_311_complaint_count": 3429,
+    "parking_311_abandoned_vehicle_count": 3426,
+    "parking_311_bike_lane_count": 3,
+    "local_311_complaint_count": 46037,
+    "parking_311_complaints_per_sqkm": 282.03,
+    "parking_311_share_of_local_complaints_pct": 7.448
   },
   {
     "area_type": "zip",
@@ -414,10 +472,12 @@
     "offstreet_parking_capacity_spaces": 1633,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 5.74,
-    "parking_311_complaint_count": 1337,
-    "parking_311_abandoned_vehicle_count": 1335,
+    "parking_311_complaint_count": 1000,
+    "parking_311_abandoned_vehicle_count": 998,
     "parking_311_bike_lane_count": 2,
-    "parking_311_complaints_per_sqkm": 134.55
+    "local_311_complaint_count": 23520,
+    "parking_311_complaints_per_sqkm": 100.64,
+    "parking_311_share_of_local_complaints_pct": 4.252
   },
   {
     "area_type": "zip",
@@ -428,10 +488,12 @@
     "offstreet_parking_capacity_spaces": 747,
     "offstreet_parking_capacity_known_sites": 3,
     "offstreet_parking_sites_per_sqkm": 11.61,
-    "parking_311_complaint_count": 8313,
-    "parking_311_abandoned_vehicle_count": 8282,
-    "parking_311_bike_lane_count": 31,
-    "parking_311_complaints_per_sqkm": 423.18
+    "parking_311_complaint_count": 5777,
+    "parking_311_abandoned_vehicle_count": 5772,
+    "parking_311_bike_lane_count": 5,
+    "local_311_complaint_count": 82022,
+    "parking_311_complaints_per_sqkm": 294.08,
+    "parking_311_share_of_local_complaints_pct": 7.043
   },
   {
     "area_type": "zip",
@@ -442,10 +504,12 @@
     "offstreet_parking_capacity_spaces": 1569,
     "offstreet_parking_capacity_known_sites": 3,
     "offstreet_parking_sites_per_sqkm": 4.43,
-    "parking_311_complaint_count": 558,
-    "parking_311_abandoned_vehicle_count": 556,
+    "parking_311_complaint_count": 356,
+    "parking_311_abandoned_vehicle_count": 354,
     "parking_311_bike_lane_count": 2,
-    "parking_311_complaints_per_sqkm": 32.08
+    "local_311_complaint_count": 8531,
+    "parking_311_complaints_per_sqkm": 20.47,
+    "parking_311_share_of_local_complaints_pct": 4.173
   },
   {
     "area_type": "zip",
@@ -456,10 +520,12 @@
     "offstreet_parking_capacity_spaces": 508,
     "offstreet_parking_capacity_known_sites": 5,
     "offstreet_parking_sites_per_sqkm": 8.78,
-    "parking_311_complaint_count": 7747,
-    "parking_311_abandoned_vehicle_count": 7738,
-    "parking_311_bike_lane_count": 9,
-    "parking_311_complaints_per_sqkm": 430.34
+    "parking_311_complaint_count": 4805,
+    "parking_311_abandoned_vehicle_count": 4802,
+    "parking_311_bike_lane_count": 3,
+    "local_311_complaint_count": 61666,
+    "parking_311_complaints_per_sqkm": 266.91,
+    "parking_311_share_of_local_complaints_pct": 7.792
   },
   {
     "area_type": "zip",
@@ -470,10 +536,12 @@
     "offstreet_parking_capacity_spaces": 235,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 9.84,
-    "parking_311_complaint_count": 3593,
-    "parking_311_abandoned_vehicle_count": 3592,
-    "parking_311_bike_lane_count": 1,
-    "parking_311_complaints_per_sqkm": 372.04
+    "parking_311_complaint_count": 2987,
+    "parking_311_abandoned_vehicle_count": 2987,
+    "parking_311_bike_lane_count": 0,
+    "local_311_complaint_count": 48512,
+    "parking_311_complaints_per_sqkm": 309.29,
+    "parking_311_share_of_local_complaints_pct": 6.157
   },
   {
     "area_type": "zip",
@@ -484,10 +552,12 @@
     "offstreet_parking_capacity_spaces": 25,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 18.14,
-    "parking_311_complaint_count": 2844,
-    "parking_311_abandoned_vehicle_count": 2835,
-    "parking_311_bike_lane_count": 9,
-    "parking_311_complaints_per_sqkm": 244.44
+    "parking_311_complaint_count": 2251,
+    "parking_311_abandoned_vehicle_count": 2243,
+    "parking_311_bike_lane_count": 8,
+    "local_311_complaint_count": 36144,
+    "parking_311_complaints_per_sqkm": 193.47,
+    "parking_311_share_of_local_complaints_pct": 6.228
   },
   {
     "area_type": "zip",
@@ -498,10 +568,12 @@
     "offstreet_parking_capacity_spaces": 39,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 6.42,
-    "parking_311_complaint_count": 4521,
-    "parking_311_abandoned_vehicle_count": 4516,
-    "parking_311_bike_lane_count": 5,
-    "parking_311_complaints_per_sqkm": 293.32
+    "parking_311_complaint_count": 3085,
+    "parking_311_abandoned_vehicle_count": 3084,
+    "parking_311_bike_lane_count": 1,
+    "local_311_complaint_count": 52463,
+    "parking_311_complaints_per_sqkm": 200.15,
+    "parking_311_share_of_local_complaints_pct": 5.88
   },
   {
     "area_type": "zip",
@@ -512,10 +584,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 11.84,
-    "parking_311_complaint_count": 7138,
-    "parking_311_abandoned_vehicle_count": 7129,
-    "parking_311_bike_lane_count": 9,
-    "parking_311_complaints_per_sqkm": 603.64
+    "parking_311_complaint_count": 4947,
+    "parking_311_abandoned_vehicle_count": 4943,
+    "parking_311_bike_lane_count": 4,
+    "local_311_complaint_count": 56796,
+    "parking_311_complaints_per_sqkm": 418.35,
+    "parking_311_share_of_local_complaints_pct": 8.71
   },
   {
     "area_type": "zip",
@@ -526,10 +600,12 @@
     "offstreet_parking_capacity_spaces": 46,
     "offstreet_parking_capacity_known_sites": 8,
     "offstreet_parking_sites_per_sqkm": 41.7,
-    "parking_311_complaint_count": 2489,
-    "parking_311_abandoned_vehicle_count": 2438,
-    "parking_311_bike_lane_count": 51,
-    "parking_311_complaints_per_sqkm": 347.09
+    "parking_311_complaint_count": 1306,
+    "parking_311_abandoned_vehicle_count": 1301,
+    "parking_311_bike_lane_count": 5,
+    "local_311_complaint_count": 34232,
+    "parking_311_complaints_per_sqkm": 182.12,
+    "parking_311_share_of_local_complaints_pct": 3.815
   },
   {
     "area_type": "zip",
@@ -540,10 +616,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 13.06,
-    "parking_311_complaint_count": 6002,
-    "parking_311_abandoned_vehicle_count": 5963,
-    "parking_311_bike_lane_count": 39,
-    "parking_311_complaints_per_sqkm": 568.06
+    "parking_311_complaint_count": 4098,
+    "parking_311_abandoned_vehicle_count": 4092,
+    "parking_311_bike_lane_count": 6,
+    "local_311_complaint_count": 51700,
+    "parking_311_complaints_per_sqkm": 387.86,
+    "parking_311_share_of_local_complaints_pct": 7.926
   },
   {
     "area_type": "zip",
@@ -554,10 +632,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 52.6,
-    "parking_311_complaint_count": 1344,
-    "parking_311_abandoned_vehicle_count": 1184,
-    "parking_311_bike_lane_count": 160,
-    "parking_311_complaints_per_sqkm": 302.1
+    "parking_311_complaint_count": 738,
+    "parking_311_abandoned_vehicle_count": 708,
+    "parking_311_bike_lane_count": 30,
+    "local_311_complaint_count": 16708,
+    "parking_311_complaints_per_sqkm": 165.88,
+    "parking_311_share_of_local_complaints_pct": 4.417
   },
   {
     "area_type": "zip",
@@ -568,10 +648,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 8.36,
-    "parking_311_complaint_count": 2485,
-    "parking_311_abandoned_vehicle_count": 2485,
+    "parking_311_complaint_count": 1957,
+    "parking_311_abandoned_vehicle_count": 1957,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 128.96
+    "local_311_complaint_count": 58152,
+    "parking_311_complaints_per_sqkm": 101.56,
+    "parking_311_share_of_local_complaints_pct": 3.365
   },
   {
     "area_type": "zip",
@@ -582,10 +664,12 @@
     "offstreet_parking_capacity_spaces": 15,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 18.49,
-    "parking_311_complaint_count": 4701,
-    "parking_311_abandoned_vehicle_count": 4699,
-    "parking_311_bike_lane_count": 2,
-    "parking_311_complaints_per_sqkm": 511.43
+    "parking_311_complaint_count": 3744,
+    "parking_311_abandoned_vehicle_count": 3744,
+    "parking_311_bike_lane_count": 0,
+    "local_311_complaint_count": 44404,
+    "parking_311_complaints_per_sqkm": 407.32,
+    "parking_311_share_of_local_complaints_pct": 8.432
   },
   {
     "area_type": "zip",
@@ -596,10 +680,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 13.35,
-    "parking_311_complaint_count": 3006,
-    "parking_311_abandoned_vehicle_count": 3000,
-    "parking_311_bike_lane_count": 6,
-    "parking_311_complaints_per_sqkm": 521.15
+    "parking_311_complaint_count": 2295,
+    "parking_311_abandoned_vehicle_count": 2294,
+    "parking_311_bike_lane_count": 1,
+    "local_311_complaint_count": 26199,
+    "parking_311_complaints_per_sqkm": 397.88,
+    "parking_311_share_of_local_complaints_pct": 8.76
   },
   {
     "area_type": "zip",
@@ -610,10 +696,12 @@
     "offstreet_parking_capacity_spaces": 382,
     "offstreet_parking_capacity_known_sites": 6,
     "offstreet_parking_sites_per_sqkm": 13.35,
-    "parking_311_complaint_count": 1591,
-    "parking_311_abandoned_vehicle_count": 1591,
+    "parking_311_complaint_count": 1108,
+    "parking_311_abandoned_vehicle_count": 1108,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 145.49
+    "local_311_complaint_count": 31107,
+    "parking_311_complaints_per_sqkm": 101.32,
+    "parking_311_share_of_local_complaints_pct": 3.562
   },
   {
     "area_type": "zip",
@@ -624,10 +712,12 @@
     "offstreet_parking_capacity_spaces": 6,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 25.62,
-    "parking_311_complaint_count": 4728,
-    "parking_311_abandoned_vehicle_count": 4601,
-    "parking_311_bike_lane_count": 127,
-    "parking_311_complaints_per_sqkm": 480.61
+    "parking_311_complaint_count": 3003,
+    "parking_311_abandoned_vehicle_count": 2969,
+    "parking_311_bike_lane_count": 34,
+    "local_311_complaint_count": 65579,
+    "parking_311_complaints_per_sqkm": 305.26,
+    "parking_311_share_of_local_complaints_pct": 4.579
   },
   {
     "area_type": "zip",
@@ -638,10 +728,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 19.68,
-    "parking_311_complaint_count": 2959,
-    "parking_311_abandoned_vehicle_count": 2959,
+    "parking_311_complaint_count": 2369,
+    "parking_311_abandoned_vehicle_count": 2369,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 396.14
+    "local_311_complaint_count": 34875,
+    "parking_311_complaints_per_sqkm": 317.16,
+    "parking_311_share_of_local_complaints_pct": 6.793
   },
   {
     "area_type": "zip",
@@ -652,10 +744,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 9.9,
-    "parking_311_complaint_count": 5921,
-    "parking_311_abandoned_vehicle_count": 5918,
-    "parking_311_bike_lane_count": 3,
-    "parking_311_complaints_per_sqkm": 644.46
+    "parking_311_complaint_count": 4445,
+    "parking_311_abandoned_vehicle_count": 4445,
+    "parking_311_bike_lane_count": 0,
+    "local_311_complaint_count": 48598,
+    "parking_311_complaints_per_sqkm": 483.81,
+    "parking_311_share_of_local_complaints_pct": 9.146
   },
   {
     "area_type": "zip",
@@ -666,10 +760,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 4.7,
-    "parking_311_complaint_count": 2477,
-    "parking_311_abandoned_vehicle_count": 2476,
-    "parking_311_bike_lane_count": 1,
-    "parking_311_complaints_per_sqkm": 208.1
+    "parking_311_complaint_count": 1719,
+    "parking_311_abandoned_vehicle_count": 1719,
+    "parking_311_bike_lane_count": 0,
+    "local_311_complaint_count": 33674,
+    "parking_311_complaints_per_sqkm": 144.42,
+    "parking_311_share_of_local_complaints_pct": 5.105
   },
   {
     "area_type": "zip",
@@ -680,10 +776,12 @@
     "offstreet_parking_capacity_spaces": 45,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 27.05,
-    "parking_311_complaint_count": 2486,
-    "parking_311_abandoned_vehicle_count": 2481,
-    "parking_311_bike_lane_count": 5,
-    "parking_311_complaints_per_sqkm": 395.5
+    "parking_311_complaint_count": 2041,
+    "parking_311_abandoned_vehicle_count": 2038,
+    "parking_311_bike_lane_count": 3,
+    "local_311_complaint_count": 21360,
+    "parking_311_complaints_per_sqkm": 324.71,
+    "parking_311_share_of_local_complaints_pct": 9.555
   },
   {
     "area_type": "zip",
@@ -694,10 +792,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 60.46,
-    "parking_311_complaint_count": 177,
-    "parking_311_abandoned_vehicle_count": 115,
-    "parking_311_bike_lane_count": 62,
-    "parking_311_complaints_per_sqkm": 120.24
+    "parking_311_complaint_count": 94,
+    "parking_311_abandoned_vehicle_count": 72,
+    "parking_311_bike_lane_count": 22,
+    "local_311_complaint_count": 8272,
+    "parking_311_complaints_per_sqkm": 63.85,
+    "parking_311_share_of_local_complaints_pct": 1.136
   },
   {
     "area_type": "zip",
@@ -708,10 +808,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 9.81,
-    "parking_311_complaint_count": 697,
-    "parking_311_abandoned_vehicle_count": 695,
-    "parking_311_bike_lane_count": 2,
-    "parking_311_complaints_per_sqkm": 65.12
+    "parking_311_complaint_count": 469,
+    "parking_311_abandoned_vehicle_count": 468,
+    "parking_311_bike_lane_count": 1,
+    "local_311_complaint_count": 22830,
+    "parking_311_complaints_per_sqkm": 43.82,
+    "parking_311_share_of_local_complaints_pct": 2.054
   },
   {
     "area_type": "zip",
@@ -722,10 +824,12 @@
     "offstreet_parking_capacity_spaces": 53,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 7.11,
-    "parking_311_complaint_count": 1763,
-    "parking_311_abandoned_vehicle_count": 1758,
-    "parking_311_bike_lane_count": 5,
-    "parking_311_complaints_per_sqkm": 212.31
+    "parking_311_complaint_count": 1339,
+    "parking_311_abandoned_vehicle_count": 1339,
+    "parking_311_bike_lane_count": 0,
+    "local_311_complaint_count": 16208,
+    "parking_311_complaints_per_sqkm": 161.25,
+    "parking_311_share_of_local_complaints_pct": 8.261
   },
   {
     "area_type": "zip",
@@ -736,10 +840,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 23.24,
-    "parking_311_complaint_count": 2183,
-    "parking_311_abandoned_vehicle_count": 2098,
-    "parking_311_bike_lane_count": 85,
-    "parking_311_complaints_per_sqkm": 370.34
+    "parking_311_complaint_count": 1270,
+    "parking_311_abandoned_vehicle_count": 1252,
+    "parking_311_bike_lane_count": 18,
+    "local_311_complaint_count": 33450,
+    "parking_311_complaints_per_sqkm": 215.45,
+    "parking_311_share_of_local_complaints_pct": 3.797
   },
   {
     "area_type": "zip",
@@ -750,10 +856,12 @@
     "offstreet_parking_capacity_spaces": 3,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 24.9,
-    "parking_311_complaint_count": 2561,
-    "parking_311_abandoned_vehicle_count": 2554,
-    "parking_311_bike_lane_count": 7,
-    "parking_311_complaints_per_sqkm": 396.12
+    "parking_311_complaint_count": 1780,
+    "parking_311_abandoned_vehicle_count": 1775,
+    "parking_311_bike_lane_count": 5,
+    "local_311_complaint_count": 23140,
+    "parking_311_complaints_per_sqkm": 275.32,
+    "parking_311_share_of_local_complaints_pct": 7.692
   },
   {
     "area_type": "zip",
@@ -764,10 +872,12 @@
     "offstreet_parking_capacity_spaces": 30,
     "offstreet_parking_capacity_known_sites": 2,
     "offstreet_parking_sites_per_sqkm": 31.79,
-    "parking_311_complaint_count": 1849,
-    "parking_311_abandoned_vehicle_count": 1801,
-    "parking_311_bike_lane_count": 48,
-    "parking_311_complaints_per_sqkm": 524.78
+    "parking_311_complaint_count": 1184,
+    "parking_311_abandoned_vehicle_count": 1156,
+    "parking_311_bike_lane_count": 28,
+    "local_311_complaint_count": 18566,
+    "parking_311_complaints_per_sqkm": 336.04,
+    "parking_311_share_of_local_complaints_pct": 6.377
   },
   {
     "area_type": "zip",
@@ -778,10 +888,12 @@
     "offstreet_parking_capacity_spaces": 217,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 89.86,
-    "parking_311_complaint_count": 134,
-    "parking_311_abandoned_vehicle_count": 107,
-    "parking_311_bike_lane_count": 27,
-    "parking_311_complaints_per_sqkm": 154.38
+    "parking_311_complaint_count": 78,
+    "parking_311_abandoned_vehicle_count": 61,
+    "parking_311_bike_lane_count": 17,
+    "local_311_complaint_count": 3816,
+    "parking_311_complaints_per_sqkm": 89.86,
+    "parking_311_share_of_local_complaints_pct": 2.044
   },
   {
     "area_type": "zip",
@@ -792,10 +904,12 @@
     "offstreet_parking_capacity_spaces": 18,
     "offstreet_parking_capacity_known_sites": 1,
     "offstreet_parking_sites_per_sqkm": 7.87,
-    "parking_311_complaint_count": 238,
-    "parking_311_abandoned_vehicle_count": 238,
+    "parking_311_complaint_count": 236,
+    "parking_311_abandoned_vehicle_count": 236,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 9.1
+    "local_311_complaint_count": 2351,
+    "parking_311_complaints_per_sqkm": 9.02,
+    "parking_311_share_of_local_complaints_pct": 10.038
   },
   {
     "area_type": "zip",
@@ -806,10 +920,12 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 12.66,
-    "parking_311_complaint_count": 2157,
-    "parking_311_abandoned_vehicle_count": 2156,
-    "parking_311_bike_lane_count": 1,
-    "parking_311_complaints_per_sqkm": 479.27
+    "parking_311_complaint_count": 1716,
+    "parking_311_abandoned_vehicle_count": 1716,
+    "parking_311_bike_lane_count": 0,
+    "local_311_complaint_count": 15716,
+    "parking_311_complaints_per_sqkm": 381.28,
+    "parking_311_share_of_local_complaints_pct": 10.919
   },
   {
     "area_type": "zip",
@@ -820,9 +936,11 @@
     "offstreet_parking_capacity_spaces": 0,
     "offstreet_parking_capacity_known_sites": 0,
     "offstreet_parking_sites_per_sqkm": 9.99,
-    "parking_311_complaint_count": 166,
-    "parking_311_abandoned_vehicle_count": 166,
+    "parking_311_complaint_count": 114,
+    "parking_311_abandoned_vehicle_count": 114,
     "parking_311_bike_lane_count": 0,
-    "parking_311_complaints_per_sqkm": 36.86
+    "local_311_complaint_count": 3447,
+    "parking_311_complaints_per_sqkm": 25.31,
+    "parking_311_share_of_local_complaints_pct": 3.307
   }
 ]

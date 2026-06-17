@@ -1,7 +1,7 @@
 {
   "source": "parkability",
   "source_url": "https://github.com/HarryBrisson/parkability",
-  "collected_at": "2026-06-17T22:34:23+00:00",
+  "collected_at": "2026-06-17T22:54:53+00:00",
   "metric_geography_coverage": {
     "offstreet_parking_sites_per_sqkm": [
       "ward",
@@ -9,6 +9,11 @@
       "zip"
     ],
     "parking_311_complaints_per_sqkm": [
+      "ward",
+      "community_area",
+      "zip"
+    ],
+    "parking_311_share_of_local_complaints_pct": [
       "ward",
       "community_area",
       "zip"
@@ -33,6 +38,11 @@
         "Vehicle Parked in Bike Lane Complaint"
       ],
       "since": "2023-01-01",
+      "denominator_excluded_types": [
+        "311 INFORMATION ONLY CALL",
+        "Aircraft Noise Complaint"
+      ],
+      "share_metric": "parking_311_share_of_local_complaints_pct = parking complaints / all local 311 complaints (excluding info-only + aircraft-noise bulk types), to control for how much each area reports overall.",
       "caveat": "Current resident-reported signal (abandoned-vehicle + bike-lane parking complaints). Reflects reporting propensity too; abandoned-vehicle reports also track disinvestment, not only scarcity. One weighted signal, not the whole."
     },
     "permit_zones": {
@@ -44,7 +54,12 @@
   },
   "audit": {
     "parking_sites_total": 13748,
-    "complaints_311_total": 176284,
+    "since": "2023-01-01",
+    "denominator_excluded_types": [
+      "311 INFORMATION ONLY CALL",
+      "Aircraft Noise Complaint"
+    ],
+    "parking_complaints_ward_total": 176228,
     "permit_block_faces_assigned": 10005,
     "permit_block_faces_unknown_ward": 141
   },

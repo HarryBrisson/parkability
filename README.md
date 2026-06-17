@@ -17,7 +17,13 @@ metrics** that the Penlight explorer lets you weight yourself. It models parking
 | --- | --- | --- | --- |
 | `offstreet_parking_sites_per_sqkm` | OSM off-street parking density (supply) | ward · community area · zip | higher |
 | `parking_311_complaints_per_sqkm` | 311 abandoned-vehicle + bike-lane parking complaints (stress) | ward · community area · zip | lower |
+| `parking_311_share_of_local_complaints_pct` | parking complaints as a share of local 311 activity (reporting-controlled) | ward · community area · zip | lower |
 | `permit_zone_block_faces_per_sqkm` | residential permit-zone density (scarcity) | ward | lower |
+
+The **share** metric expresses parking complaints as a fraction of all *local* 311 activity
+(excluding the `311 INFORMATION ONLY CALL` and `Aircraft Noise Complaint` bulk types, which
+otherwise swamp the denominator — aircraft-noise alone is ~1.2M reports, nearly all in the
+O'Hare ward). This controls for how much each area reports overall.
 
 The permit-zone signal is deliberately central: the city designates these zones *where
 residents compete for scarce street parking*, so it's a clean "hard to park here" signal —
@@ -28,11 +34,12 @@ things.** Validated against real data:
 - Permit-zone density peaks in dense North/Central wards (Lakeview, Lincoln Park, River
   North, Wicker Park) and bottoms out on the periphery — a clean scarcity signal.
 - Off-street supply concentrates downtown (the Loop alone tags ~9,900 garage spaces).
-- 311 parking complaints peak in NW/W working-class wards (Belmont Cragin, Portage Park),
-  **not** the scarce North Side — so this signal tracks vehicle-nuisance and reporting
-  propensity, a different dimension than scarcity. (The truer "illegal parking" subtype,
-  bike-lane complaints, is too sparse to stand alone.) Methodology discloses this; weight
-  accordingly.
+- 311 parking complaints peak in NW/W working-class wards (Belmont Cragin, Portage Park) and
+  are lowest in the dense, scarce-parking North/Central wards — **even as a reporting-controlled
+  share** (9% of local 311 in the top wards vs ~2% in the Loop / Lincoln Park / River North).
+  So this signal is genuinely *anti-correlated* with scarcity: it tracks vehicle-nuisance, a
+  different dimension. (The truer "illegal parking" subtype, bike-lane complaints, is kept as a
+  breakdown but is sparse — ~3.2k since 2023.) Methodology discloses this; weight accordingly.
 
 ## Roadmap (Phase 2 cont.)
 

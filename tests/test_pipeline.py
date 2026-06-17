@@ -1,7 +1,13 @@
 import json
 from pathlib import Path
 
-from parkability.pipeline import COMPLAINTS_METRIC, PARKING_METRIC, PERMIT_METRIC, run
+from parkability.pipeline import (
+    COMPLAINTS_METRIC,
+    COMPLAINTS_SHARE_METRIC,
+    PARKING_METRIC,
+    PERMIT_METRIC,
+    run,
+)
 
 FIXTURES = Path(__file__).resolve().parent.parent / "data" / "fixtures"
 PARKING = FIXTURES / "sample_parking.json"
@@ -58,20 +64,25 @@ def test_permit_zones_ward_only_with_buffer_and_crossward(tmp_path):
     assert by_ward["01"][PERMIT_METRIC] >= 0
 
 
-def test_311_complaints_assigned_across_geographies(tmp_path):
+def test_311_counts_and_share_across_geographies(tmp_path):
     result = _run(tmp_path)
     by_ward = {r["area_id"]: r for r in result["summaries"]["ward"]}
-    # Ward 01: 2 abandoned + 1 bike lane = 3; missing-coords + wrong-type rows skipped.
     assert by_ward["01"]["parking_311_complaint_count"] == 3
     assert by_ward["01"]["parking_311_abandoned_vehicle_count"] == 2
     assert by_ward["01"]["parking_311_bike_lane_count"] == 1
     assert by_ward["02"]["parking_311_complaint_count"] == 1
-    assert result["metadata"]["audit"]["complaints_311_total"] == 4  # 2 unusable rows dropped
-    # 311 is a point-based signal, so it is available for all three geographies.
-    assert set(result["metadata"]["metric_geography_coverage"][COMPLAINTS_METRIC]) == {
-        "ward", "community_area", "zip",
-    }
-    assert COMPLAINTS_METRIC in result["summaries"]["zip"][0]
+    # Share = parking / local-complaint denominator: ward 01 = 3/100 = 3.0%.
+    assert by_ward["01"][COMPLAINTS_SHARE_METRIC] == 3.0
+    assert by_ward["02"][COMPLAINTS_SHARE_METRIC] == 2.0
+    # A ward with no 311 data has a 0 count and a null share (no denominator).
+    assert by_ward["05"]["parking_311_complaint_count"] == 0
+    assert by_ward["05"][COMPLAINTS_SHARE_METRIC] is None
+    # Both 311 metrics are available for all three geographies.
+    for metric in (COMPLAINTS_METRIC, COMPLAINTS_SHARE_METRIC):
+        assert set(result["metadata"]["metric_geography_coverage"][metric]) == {
+            "ward", "community_area", "zip",
+        }
+        assert metric in result["summaries"]["zip"][0]
 
 
 def test_permit_metric_absent_from_non_ward_geographies(tmp_path):
