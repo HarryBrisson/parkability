@@ -1,0 +1,592 @@
+[
+  {
+    "area_type": "zip",
+    "area_id": "60601",
+    "display_name": "60601",
+    "area_km2": 0.8503,
+    "offstreet_parking_site_count": 43,
+    "offstreet_parking_capacity_spaces": 465,
+    "offstreet_parking_capacity_known_sites": 5,
+    "offstreet_parking_sites_per_sqkm": 50.57
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60602",
+    "display_name": "60602",
+    "area_km2": 0.4496,
+    "offstreet_parking_site_count": 14,
+    "offstreet_parking_capacity_spaces": 7826,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 31.14
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60603",
+    "display_name": "60603",
+    "area_km2": 0.423,
+    "offstreet_parking_site_count": 13,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 30.73
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60604",
+    "display_name": "60604",
+    "area_km2": 0.3984,
+    "offstreet_parking_site_count": 18,
+    "offstreet_parking_capacity_spaces": 1350,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 45.18
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60605",
+    "display_name": "60605",
+    "area_km2": 3.3675,
+    "offstreet_parking_site_count": 154,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 45.73
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60606",
+    "display_name": "60606",
+    "area_km2": 0.6277,
+    "offstreet_parking_site_count": 53,
+    "offstreet_parking_capacity_spaces": 14,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 84.44
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60607",
+    "display_name": "60607",
+    "area_km2": 5.9983,
+    "offstreet_parking_site_count": 356,
+    "offstreet_parking_capacity_spaces": 12,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 59.35
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60608",
+    "display_name": "60608",
+    "area_km2": 16.373,
+    "offstreet_parking_site_count": 335,
+    "offstreet_parking_capacity_spaces": 31,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 20.46
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60609",
+    "display_name": "60609",
+    "area_km2": 19.8045,
+    "offstreet_parking_site_count": 226,
+    "offstreet_parking_capacity_spaces": 73,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 11.41
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60610",
+    "display_name": "60610",
+    "area_km2": 2.9311,
+    "offstreet_parking_site_count": 90,
+    "offstreet_parking_capacity_spaces": 22,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 30.71
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60611",
+    "display_name": "60611",
+    "area_km2": 2.1804,
+    "offstreet_parking_site_count": 102,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 46.78
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60612",
+    "display_name": "60612",
+    "area_km2": 9.8994,
+    "offstreet_parking_site_count": 322,
+    "offstreet_parking_capacity_spaces": 118,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 32.53
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60613",
+    "display_name": "60613",
+    "area_km2": 5.0082,
+    "offstreet_parking_site_count": 158,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 31.55
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60614",
+    "display_name": "60614",
+    "area_km2": 8.7625,
+    "offstreet_parking_site_count": 263,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 30.01
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60615",
+    "display_name": "60615",
+    "area_km2": 6.1747,
+    "offstreet_parking_site_count": 140,
+    "offstreet_parking_capacity_spaces": 148,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 22.67
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60616",
+    "display_name": "60616",
+    "area_km2": 10.1728,
+    "offstreet_parking_site_count": 343,
+    "offstreet_parking_capacity_spaces": 9501,
+    "offstreet_parking_capacity_known_sites": 10,
+    "offstreet_parking_sites_per_sqkm": 33.72
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60617",
+    "display_name": "60617",
+    "area_km2": 41.9961,
+    "offstreet_parking_site_count": 190,
+    "offstreet_parking_capacity_spaces": 698,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 4.52
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60618",
+    "display_name": "60618",
+    "area_km2": 13.1013,
+    "offstreet_parking_site_count": 258,
+    "offstreet_parking_capacity_spaces": 16,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 19.69
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60619",
+    "display_name": "60619",
+    "area_km2": 15.572,
+    "offstreet_parking_site_count": 109,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 7.0
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60620",
+    "display_name": "60620",
+    "area_km2": 17.6388,
+    "offstreet_parking_site_count": 340,
+    "offstreet_parking_capacity_spaces": 98,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 19.28
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60621",
+    "display_name": "60621",
+    "area_km2": 9.7168,
+    "offstreet_parking_site_count": 82,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 8.44
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60622",
+    "display_name": "60622",
+    "area_km2": 6.5726,
+    "offstreet_parking_site_count": 249,
+    "offstreet_parking_capacity_spaces": 18,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 37.88
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60623",
+    "display_name": "60623",
+    "area_km2": 14.4047,
+    "offstreet_parking_site_count": 166,
+    "offstreet_parking_capacity_spaces": 11,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 11.52
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60624",
+    "display_name": "60624",
+    "area_km2": 9.2221,
+    "offstreet_parking_site_count": 190,
+    "offstreet_parking_capacity_spaces": 19,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 20.6
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60625",
+    "display_name": "60625",
+    "area_km2": 9.8171,
+    "offstreet_parking_site_count": 144,
+    "offstreet_parking_capacity_spaces": 128,
+    "offstreet_parking_capacity_known_sites": 5,
+    "offstreet_parking_sites_per_sqkm": 14.67
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60626",
+    "display_name": "60626",
+    "area_km2": 4.5609,
+    "offstreet_parking_site_count": 136,
+    "offstreet_parking_capacity_spaces": 607,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 29.82
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60628",
+    "display_name": "60628",
+    "area_km2": 32.03,
+    "offstreet_parking_site_count": 234,
+    "offstreet_parking_capacity_spaces": 296,
+    "offstreet_parking_capacity_known_sites": 6,
+    "offstreet_parking_sites_per_sqkm": 7.31
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60629",
+    "display_name": "60629",
+    "area_km2": 19.5826,
+    "offstreet_parking_site_count": 130,
+    "offstreet_parking_capacity_spaces": 389,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 6.64
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60630",
+    "display_name": "60630",
+    "area_km2": 12.1583,
+    "offstreet_parking_site_count": 159,
+    "offstreet_parking_capacity_spaces": 49,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 13.08
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60631",
+    "display_name": "60631",
+    "area_km2": 9.9365,
+    "offstreet_parking_site_count": 57,
+    "offstreet_parking_capacity_spaces": 1633,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 5.74
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60632",
+    "display_name": "60632",
+    "area_km2": 19.6442,
+    "offstreet_parking_site_count": 228,
+    "offstreet_parking_capacity_spaces": 747,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 11.61
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60633",
+    "display_name": "60633",
+    "area_km2": 17.395,
+    "offstreet_parking_site_count": 77,
+    "offstreet_parking_capacity_spaces": 1569,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 4.43
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60634",
+    "display_name": "60634",
+    "area_km2": 18.002,
+    "offstreet_parking_site_count": 158,
+    "offstreet_parking_capacity_spaces": 508,
+    "offstreet_parking_capacity_known_sites": 5,
+    "offstreet_parking_sites_per_sqkm": 8.78
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60636",
+    "display_name": "60636",
+    "area_km2": 9.6575,
+    "offstreet_parking_site_count": 95,
+    "offstreet_parking_capacity_spaces": 235,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 9.84
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60637",
+    "display_name": "60637",
+    "area_km2": 11.6346,
+    "offstreet_parking_site_count": 211,
+    "offstreet_parking_capacity_spaces": 25,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 18.14
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60638",
+    "display_name": "60638",
+    "area_km2": 15.4133,
+    "offstreet_parking_site_count": 99,
+    "offstreet_parking_capacity_spaces": 39,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 6.42
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60639",
+    "display_name": "60639",
+    "area_km2": 11.8249,
+    "offstreet_parking_site_count": 140,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 11.84
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60640",
+    "display_name": "60640",
+    "area_km2": 7.1711,
+    "offstreet_parking_site_count": 299,
+    "offstreet_parking_capacity_spaces": 46,
+    "offstreet_parking_capacity_known_sites": 8,
+    "offstreet_parking_sites_per_sqkm": 41.7
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60641",
+    "display_name": "60641",
+    "area_km2": 10.5658,
+    "offstreet_parking_site_count": 138,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 13.06
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60642",
+    "display_name": "60642",
+    "area_km2": 4.4489,
+    "offstreet_parking_site_count": 234,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 52.6
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60643",
+    "display_name": "60643",
+    "area_km2": 19.2693,
+    "offstreet_parking_site_count": 161,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 8.36
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60644",
+    "display_name": "60644",
+    "area_km2": 9.1918,
+    "offstreet_parking_site_count": 170,
+    "offstreet_parking_capacity_spaces": 15,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 18.49
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60645",
+    "display_name": "60645",
+    "area_km2": 5.768,
+    "offstreet_parking_site_count": 77,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 13.35
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60646",
+    "display_name": "60646",
+    "area_km2": 10.9353,
+    "offstreet_parking_site_count": 146,
+    "offstreet_parking_capacity_spaces": 382,
+    "offstreet_parking_capacity_known_sites": 6,
+    "offstreet_parking_sites_per_sqkm": 13.35
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60647",
+    "display_name": "60647",
+    "area_km2": 9.8374,
+    "offstreet_parking_site_count": 252,
+    "offstreet_parking_capacity_spaces": 6,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 25.62
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60649",
+    "display_name": "60649",
+    "area_km2": 7.4695,
+    "offstreet_parking_site_count": 147,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 19.68
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60651",
+    "display_name": "60651",
+    "area_km2": 9.1875,
+    "offstreet_parking_site_count": 91,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 9.9
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60652",
+    "display_name": "60652",
+    "area_km2": 11.9031,
+    "offstreet_parking_site_count": 56,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 4.7
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60653",
+    "display_name": "60653",
+    "area_km2": 6.2857,
+    "offstreet_parking_site_count": 170,
+    "offstreet_parking_capacity_spaces": 45,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 27.05
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60654",
+    "display_name": "60654",
+    "area_km2": 1.4721,
+    "offstreet_parking_site_count": 89,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 60.46
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60655",
+    "display_name": "60655",
+    "area_km2": 10.7034,
+    "offstreet_parking_site_count": 105,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 9.81
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60656",
+    "display_name": "60656",
+    "area_km2": 8.3038,
+    "offstreet_parking_site_count": 59,
+    "offstreet_parking_capacity_spaces": 53,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 7.11
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60657",
+    "display_name": "60657",
+    "area_km2": 5.8946,
+    "offstreet_parking_site_count": 137,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 23.24
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60659",
+    "display_name": "60659",
+    "area_km2": 6.4652,
+    "offstreet_parking_site_count": 161,
+    "offstreet_parking_capacity_spaces": 3,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 24.9
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60660",
+    "display_name": "60660",
+    "area_km2": 3.5234,
+    "offstreet_parking_site_count": 112,
+    "offstreet_parking_capacity_spaces": 30,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 31.79
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60661",
+    "display_name": "60661",
+    "area_km2": 0.868,
+    "offstreet_parking_site_count": 78,
+    "offstreet_parking_capacity_spaces": 217,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 89.86
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60666",
+    "display_name": "60666",
+    "area_km2": 26.1635,
+    "offstreet_parking_site_count": 206,
+    "offstreet_parking_capacity_spaces": 18,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 7.87
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60707",
+    "display_name": "60707",
+    "area_km2": 4.5006,
+    "offstreet_parking_site_count": 57,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 12.66
+  },
+  {
+    "area_type": "zip",
+    "area_id": "60827",
+    "display_name": "60827",
+    "area_km2": 4.5038,
+    "offstreet_parking_site_count": 45,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 9.99
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "row_id": "1",
+    "status": "ACTIVE",
+    "zone": "10",
+    "buffer": "N",
+    "ward_low": "1",
+    "ward_high": "1"
+  },
+  {
+    "row_id": "2",
+    "status": "ACTIVE",
+    "zone": "10",
+    "buffer": "Y",
+    "ward_low": "1",
+    "ward_high": "1"
+  },
+  {
+    "row_id": "3",
+    "status": "ACTIVE",
+    "zone": "11",
+    "buffer": "N",
+    "ward_low": "1",
+    "ward_high": "1"
+  },
+  {
+    "row_id": "4",
+    "status": "ACTIVE",
+    "zone": "20",
+    "buffer": "N",
+    "ward_low": "2",
+    "ward_high": "2"
+  },
+  {
+    "row_id": "5",
+    "status": "INACTIVE",
+    "zone": "99",
+    "buffer": "N",
+    "ward_low": "1",
+    "ward_high": "1"
+  },
+  {
+    "row_id": "6",
+    "status": "ACTIVE",
+    "zone": "30",
+    "buffer": "N",
+    "ward_low": "1",
+    "ward_high": "2"
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "area_type": "community_area",
+    "area_id": "01",
+    "display_name": "Rogers Park",
+    "area_km2": 4.7628,
+    "offstreet_parking_site_count": 132,
+    "offstreet_parking_capacity_spaces": 607,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 27.71
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "02",
+    "display_name": "West Ridge",
+    "area_km2": 9.13,
+    "offstreet_parking_site_count": 224,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 24.53
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "03",
+    "display_name": "Uptown",
+    "area_km2": 6.0411,
+    "offstreet_parking_site_count": 315,
+    "offstreet_parking_capacity_spaces": 46,
+    "offstreet_parking_capacity_known_sites": 8,
+    "offstreet_parking_sites_per_sqkm": 52.14
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "04",
+    "display_name": "Lincoln Square",
+    "area_km2": 6.6215,
+    "offstreet_parking_site_count": 99,
+    "offstreet_parking_capacity_spaces": 9,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 14.95
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "05",
+    "display_name": "North Center",
+    "area_km2": 5.283,
+    "offstreet_parking_site_count": 117,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 22.15
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "06",
+    "display_name": "Lake View",
+    "area_km2": 8.1049,
+    "offstreet_parking_site_count": 186,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 22.95
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "07",
+    "display_name": "Lincoln Park",
+    "area_km2": 8.2156,
+    "offstreet_parking_site_count": 235,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 28.6
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "08",
+    "display_name": "Near North Side",
+    "area_km2": 7.1123,
+    "offstreet_parking_site_count": 318,
+    "offstreet_parking_capacity_spaces": 22,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 44.71
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "09",
+    "display_name": "Edison Park",
+    "area_km2": 2.9358,
+    "offstreet_parking_site_count": 7,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 2.38
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "10",
+    "display_name": "Norwood Park",
+    "area_km2": 11.3133,
+    "offstreet_parking_site_count": 57,
+    "offstreet_parking_capacity_spaces": 311,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 5.04
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "11",
+    "display_name": "Jefferson Park",
+    "area_km2": 6.0162,
+    "offstreet_parking_site_count": 48,
+    "offstreet_parking_capacity_spaces": 17,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 7.98
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "12",
+    "display_name": "Forest Glen",
+    "area_km2": 8.2682,
+    "offstreet_parking_site_count": 107,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 12.94
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "13",
+    "display_name": "North Park",
+    "area_km2": 6.5237,
+    "offstreet_parking_site_count": 118,
+    "offstreet_parking_capacity_spaces": 127,
+    "offstreet_parking_capacity_known_sites": 6,
+    "offstreet_parking_sites_per_sqkm": 18.09
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "14",
+    "display_name": "Albany Park",
+    "area_km2": 4.9708,
+    "offstreet_parking_site_count": 96,
+    "offstreet_parking_capacity_spaces": 119,
+    "offstreet_parking_capacity_known_sites": 4,
+    "offstreet_parking_sites_per_sqkm": 19.31
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "15",
+    "display_name": "Portage Park",
+    "area_km2": 10.2197,
+    "offstreet_parking_site_count": 125,
+    "offstreet_parking_capacity_spaces": 71,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 12.23
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "16",
+    "display_name": "Irving Park",
+    "area_km2": 8.316,
+    "offstreet_parking_site_count": 109,
+    "offstreet_parking_capacity_spaces": 14,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 13.11
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "17",
+    "display_name": "Dunning",
+    "area_km2": 9.6034,
+    "offstreet_parking_site_count": 70,
+    "offstreet_parking_capacity_spaces": 61,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 7.29
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "18",
+    "display_name": "Montclare",
+    "area_km2": 2.5657,
+    "offstreet_parking_site_count": 32,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 12.47
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "19",
+    "display_name": "Belmont Cragin",
+    "area_km2": 10.12,
+    "offstreet_parking_site_count": 136,
+    "offstreet_parking_capacity_spaces": 402,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 13.44
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "20",
+    "display_name": "Hermosa",
+    "area_km2": 3.0261,
+    "offstreet_parking_site_count": 24,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 7.93
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "21",
+    "display_name": "Avondale",
+    "area_km2": 5.1321,
+    "offstreet_parking_site_count": 114,
+    "offstreet_parking_capacity_spaces": 8,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 22.21
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "22",
+    "display_name": "Logan Square",
+    "area_km2": 9.2722,
+    "offstreet_parking_site_count": 248,
+    "offstreet_parking_capacity_spaces": 6,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 26.75
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "23",
+    "display_name": "Humboldt Park",
+    "area_km2": 9.3152,
+    "offstreet_parking_site_count": 130,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 13.96
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "24",
+    "display_name": "West Town",
+    "area_km2": 11.8171,
+    "offstreet_parking_site_count": 481,
+    "offstreet_parking_capacity_spaces": 136,
+    "offstreet_parking_capacity_known_sites": 6,
+    "offstreet_parking_sites_per_sqkm": 40.7
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "25",
+    "display_name": "Austin",
+    "area_km2": 18.4647,
+    "offstreet_parking_site_count": 254,
+    "offstreet_parking_capacity_spaces": 15,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 13.76
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "26",
+    "display_name": "West Garfield Park",
+    "area_km2": 3.3502,
+    "offstreet_parking_site_count": 69,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 20.6
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "27",
+    "display_name": "East Garfield Park",
+    "area_km2": 4.9995,
+    "offstreet_parking_site_count": 103,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 20.6
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "28",
+    "display_name": "Near West Side",
+    "area_km2": 14.7021,
+    "offstreet_parking_site_count": 750,
+    "offstreet_parking_capacity_spaces": 229,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 51.01
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "29",
+    "display_name": "North Lawndale",
+    "area_km2": 8.2942,
+    "offstreet_parking_site_count": 177,
+    "offstreet_parking_capacity_spaces": 30,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 21.34
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "30",
+    "display_name": "South Lawndale",
+    "area_km2": 11.8923,
+    "offstreet_parking_site_count": 93,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 7.82
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "31",
+    "display_name": "Lower West Side",
+    "area_km2": 7.573,
+    "offstreet_parking_site_count": 156,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 20.6
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "32",
+    "display_name": "Loop",
+    "area_km2": 4.3063,
+    "offstreet_parking_site_count": 224,
+    "offstreet_parking_capacity_spaces": 9655,
+    "offstreet_parking_capacity_known_sites": 12,
+    "offstreet_parking_sites_per_sqkm": 52.02
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "33",
+    "display_name": "Near South Side",
+    "area_km2": 4.6183,
+    "offstreet_parking_site_count": 173,
+    "offstreet_parking_capacity_spaces": 6425,
+    "offstreet_parking_capacity_known_sites": 6,
+    "offstreet_parking_sites_per_sqkm": 37.46
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "34",
+    "display_name": "Armour Square",
+    "area_km2": 2.581,
+    "offstreet_parking_site_count": 81,
+    "offstreet_parking_capacity_spaces": 66,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 31.38
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "35",
+    "display_name": "Douglas",
+    "area_km2": 4.2638,
+    "offstreet_parking_site_count": 154,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 36.12
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "36",
+    "display_name": "Oakland",
+    "area_km2": 1.5717,
+    "offstreet_parking_site_count": 45,
+    "offstreet_parking_capacity_spaces": 45,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 28.63
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "37",
+    "display_name": "Fuller Park",
+    "area_km2": 1.8421,
+    "offstreet_parking_site_count": 17,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 9.23
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "38",
+    "display_name": "Grand Boulevard",
+    "area_km2": 4.5023,
+    "offstreet_parking_site_count": 94,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 20.88
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "39",
+    "display_name": "Kenwood",
+    "area_km2": 2.6996,
+    "offstreet_parking_site_count": 53,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 19.63
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "40",
+    "display_name": "Washington Park",
+    "area_km2": 3.9306,
+    "offstreet_parking_site_count": 45,
+    "offstreet_parking_capacity_spaces": 148,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 11.45
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "41",
+    "display_name": "Hyde Park",
+    "area_km2": 4.1874,
+    "offstreet_parking_site_count": 152,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 36.3
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "42",
+    "display_name": "Woodlawn",
+    "area_km2": 5.3595,
+    "offstreet_parking_site_count": 117,
+    "offstreet_parking_capacity_spaces": 25,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 21.83
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "43",
+    "display_name": "South Shore",
+    "area_km2": 7.5952,
+    "offstreet_parking_site_count": 135,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 17.77
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "44",
+    "display_name": "Chatham",
+    "area_km2": 7.6399,
+    "offstreet_parking_site_count": 71,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 9.29
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "45",
+    "display_name": "Avalon Park",
+    "area_km2": 3.2298,
+    "offstreet_parking_site_count": 21,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 6.5
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "46",
+    "display_name": "South Chicago",
+    "area_km2": 8.6553,
+    "offstreet_parking_site_count": 72,
+    "offstreet_parking_capacity_spaces": 698,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 8.32
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "47",
+    "display_name": "Burnside",
+    "area_km2": 1.5793,
+    "offstreet_parking_site_count": 3,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 1.9
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "48",
+    "display_name": "Calumet Heights",
+    "area_km2": 4.5353,
+    "offstreet_parking_site_count": 32,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 7.06
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "49",
+    "display_name": "Roseland",
+    "area_km2": 12.4557,
+    "offstreet_parking_site_count": 122,
+    "offstreet_parking_capacity_spaces": 146,
+    "offstreet_parking_capacity_known_sites": 4,
+    "offstreet_parking_sites_per_sqkm": 9.79
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "50",
+    "display_name": "Pullman",
+    "area_km2": 5.472,
+    "offstreet_parking_site_count": 58,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 10.6
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "51",
+    "display_name": "South Deering",
+    "area_km2": 28.1799,
+    "offstreet_parking_site_count": 37,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 1.31
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "52",
+    "display_name": "East Side",
+    "area_km2": 7.7186,
+    "offstreet_parking_site_count": 55,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 7.13
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "53",
+    "display_name": "West Pullman",
+    "area_km2": 9.2109,
+    "offstreet_parking_site_count": 79,
+    "offstreet_parking_capacity_spaces": 24,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 8.58
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "54",
+    "display_name": "Riverdale",
+    "area_km2": 9.1177,
+    "offstreet_parking_site_count": 55,
+    "offstreet_parking_capacity_spaces": 126,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 6.03
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "55",
+    "display_name": "Hegewisch",
+    "area_km2": 13.5459,
+    "offstreet_parking_site_count": 74,
+    "offstreet_parking_capacity_spaces": 1569,
+    "offstreet_parking_capacity_known_sites": 3,
+    "offstreet_parking_sites_per_sqkm": 5.46
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "56",
+    "display_name": "Garfield Ridge",
+    "area_km2": 10.9287,
+    "offstreet_parking_site_count": 92,
+    "offstreet_parking_capacity_spaces": 39,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 8.42
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "57",
+    "display_name": "Archer Heights",
+    "area_km2": 5.2019,
+    "offstreet_parking_site_count": 61,
+    "offstreet_parking_capacity_spaces": 390,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 11.73
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "58",
+    "display_name": "Brighton Park",
+    "area_km2": 7.0385,
+    "offstreet_parking_site_count": 95,
+    "offstreet_parking_capacity_spaces": 157,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 13.5
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "59",
+    "display_name": "Mckinley Park",
+    "area_km2": 3.6481,
+    "offstreet_parking_site_count": 61,
+    "offstreet_parking_capacity_spaces": 69,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 16.72
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "60",
+    "display_name": "Bridgeport",
+    "area_km2": 5.4081,
+    "offstreet_parking_site_count": 103,
+    "offstreet_parking_capacity_spaces": 3045,
+    "offstreet_parking_capacity_known_sites": 5,
+    "offstreet_parking_sites_per_sqkm": 19.05
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "61",
+    "display_name": "New City",
+    "area_km2": 12.4973,
+    "offstreet_parking_site_count": 134,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 10.72
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "62",
+    "display_name": "West Elsdon",
+    "area_km2": 3.0348,
+    "offstreet_parking_site_count": 17,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 5.6
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "63",
+    "display_name": "Gage Park",
+    "area_km2": 5.6863,
+    "offstreet_parking_site_count": 64,
+    "offstreet_parking_capacity_spaces": 200,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 11.26
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "64",
+    "display_name": "Clearing",
+    "area_km2": 6.5868,
+    "offstreet_parking_site_count": 31,
+    "offstreet_parking_capacity_spaces": 389,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 4.71
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "65",
+    "display_name": "West Lawn",
+    "area_km2": 7.6443,
+    "offstreet_parking_site_count": 47,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 6.15
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "66",
+    "display_name": "Chicago Lawn",
+    "area_km2": 9.1141,
+    "offstreet_parking_site_count": 73,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 8.01
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "67",
+    "display_name": "West Englewood",
+    "area_km2": 8.1429,
+    "offstreet_parking_site_count": 69,
+    "offstreet_parking_capacity_spaces": 235,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 8.47
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "68",
+    "display_name": "Englewood",
+    "area_km2": 7.9486,
+    "offstreet_parking_site_count": 67,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 8.43
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "69",
+    "display_name": "Greater Grand Crossing",
+    "area_km2": 9.1808,
+    "offstreet_parking_site_count": 81,
+    "offstreet_parking_capacity_spaces": 92,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 8.82
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "70",
+    "display_name": "Ashburn",
+    "area_km2": 12.5675,
+    "offstreet_parking_site_count": 60,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 4.77
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "71",
+    "display_name": "Auburn Gresham",
+    "area_km2": 9.7497,
+    "offstreet_parking_site_count": 225,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 23.08
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "72",
+    "display_name": "Beverly",
+    "area_km2": 8.2198,
+    "offstreet_parking_site_count": 18,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 2.19
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "73",
+    "display_name": "Washington Heights",
+    "area_km2": 7.3771,
+    "offstreet_parking_site_count": 91,
+    "offstreet_parking_capacity_spaces": 6,
+    "offstreet_parking_capacity_known_sites": 1,
+    "offstreet_parking_sites_per_sqkm": 12.34
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "74",
+    "display_name": "Mount Greenwood",
+    "area_km2": 6.9933,
+    "offstreet_parking_site_count": 95,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 13.58
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "75",
+    "display_name": "Morgan Park",
+    "area_km2": 8.5233,
+    "offstreet_parking_site_count": 70,
+    "offstreet_parking_capacity_spaces": 0,
+    "offstreet_parking_capacity_known_sites": 0,
+    "offstreet_parking_sites_per_sqkm": 8.21
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "76",
+    "display_name": "Ohare",
+    "area_km2": 34.5114,
+    "offstreet_parking_site_count": 289,
+    "offstreet_parking_capacity_spaces": 1651,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 8.37
+  },
+  {
+    "area_type": "community_area",
+    "area_id": "77",
+    "display_name": "Edgewater",
+    "area_km2": 4.4914,
+    "offstreet_parking_site_count": 130,
+    "offstreet_parking_capacity_spaces": 30,
+    "offstreet_parking_capacity_known_sites": 2,
+    "offstreet_parking_sites_per_sqkm": 28.94
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "parkability-fixture",
+  "elements": [
+    {
+      "type": "node",
+      "id": 501,
+      "lat": 41.908245,
+      "lon": -87.680943,
+      "tags": {
+        "amenity": "parking",
+        "parking": "surface",
+        "capacity": "40"
+      }
+    },
+    {
+      "type": "node",
+      "id": 502,
+      "lat": 41.908445,
+      "lon": -87.680743,
+      "tags": {
+        "amenity": "parking",
+        "parking": "multi-storey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 503,
+      "lat": 41.908645,
+      "lon": -87.680543,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 504,
+      "lat": 41.905646,
+      "lon": -87.632183,
+      "tags": {
+        "amenity": "parking",
+        "parking": "underground",
+        "capacity": "120"
+      }
+    },
+    {
+      "type": "node",
+      "id": 999,
+      "lat": 40.0,
+      "lon": -90.0,
+      "tags": {
+        "amenity": "parking"
+      }
+    }
+  ]
+}

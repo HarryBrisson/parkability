@@ -1,0 +1,39 @@
+{
+  "source": "parkability",
+  "source_url": "https://github.com/HarryBrisson/parkability",
+  "collected_at": "2026-06-17T22:13:44+00:00",
+  "metric_geography_coverage": {
+    "offstreet_parking_sites_per_sqkm": [
+      "ward",
+      "community_area",
+      "zip"
+    ],
+    "permit_zone_block_faces_per_sqkm": [
+      "ward"
+    ]
+  },
+  "sources": {
+    "offstreet_parking": {
+      "name": "OpenStreetMap amenity=parking (Overpass)",
+      "mode": "overpass:https://overpass-api.de/api/interpreter",
+      "attribution": "\u00a9 OpenStreetMap contributors (ODbL)",
+      "caveat": "capacity tag is incomplete; site count is the robust measure."
+    },
+    "permit_zones": {
+      "name": "Chicago Residential Permit Zones (Data Portal u9xt-hiju)",
+      "mode": "soda:https://data.cityofchicago.org/resource/u9xt-hiju.json",
+      "page": "https://data.cityofchicago.org/Transportation/Parking-Permit-Zones/u9xt-hiju",
+      "caveat": "Ward-level only (source has no geometry). A clean scarcity signal: the city designates zones where street parking is contested; not confounded by enforcement intensity the way ticket counts are."
+    }
+  },
+  "audit": {
+    "parking_sites_total": 13748,
+    "permit_block_faces_assigned": 10005,
+    "permit_block_faces_unknown_ward": 141
+  },
+  "totals": {
+    "wards": 50,
+    "community_areas": 77,
+    "zips": 59
+  }
+}
