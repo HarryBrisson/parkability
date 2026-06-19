@@ -36,22 +36,27 @@ RAW_DIR = REPO_ROOT / "data" / "raw"
 ABANDONED_VEHICLE = "Abandoned Vehicle Complaint"
 BIKE_LANE = "Vehicle Parked in Bike Lane Complaint"
 
-# Per-metric capability so a consumer knows what it gets natively vs. must estimate itself.
+# byop/v1 aggregation contract: a generic consumer reads this + the layer files and aggregates to its
+# own polygons with no parkability code (combine in {count, ratio, share, mean}).
 AGGREGATION_SPEC: dict[str, Any] = {
+    "contract": "byop/v1",
     "source": "parkability",
     "source_url": "https://github.com/HarryBrisson/parkability",
-    "byop_metrics": {
+    "layers": {
+        "parking_sites": {"file": "parking_sites.geojson", "kind": "points"},
+        "parking_complaints": {"file": "parking_complaints.geojson", "kind": "points"},
+        "car_ownership": {"file": "car_ownership.geojson", "kind": "points"},
+    },
+    "metrics": {
         "offstreet_parking_sites_per_sqkm": {
-            "unit": "rate", "combine": "count_in_polygon", "denominator": "area_km2",
-            "layer": "parking_sites",
+            "layer": "parking_sites", "combine": "count", "per": "area_km2", "unit": "rate",
         },
         "parking_311_complaints_per_sqkm": {
-            "unit": "rate", "combine": "count_in_polygon", "denominator": "area_km2",
-            "layer": "parking_complaints",
+            "layer": "parking_complaints", "combine": "count", "per": "area_km2", "unit": "rate",
         },
         "vehicles_per_household": {
-            "unit": "rate", "combine": "sum_in_polygon", "numerator": "vehicles",
-            "denominator": "households", "layer": "car_ownership",
+            "layer": "car_ownership", "combine": "ratio", "numerator": "vehicles",
+            "denominator": "households", "unit": "rate",
         },
     },
     "fixed_geography_metrics": {
@@ -125,7 +130,7 @@ def aggregate_to_polygons(
         permit_by_ward=None,  # no geometry → fixed-geography only
     )
 
-    byop_metrics = AGGREGATION_SPEC["byop_metrics"]
+    byop_metrics = AGGREGATION_SPEC["metrics"]
     keep_counts = (
         "area_km2",
         "offstreet_parking_site_count",

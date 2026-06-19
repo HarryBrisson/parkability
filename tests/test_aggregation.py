@@ -48,7 +48,7 @@ def test_aggregate_to_polygons_produces_byop_metrics_only():
     cell = result["A1"]
 
     # the three BYOP metrics are computed natively for the custom polygon
-    for metric in AGGREGATION_SPEC["byop_metrics"]:
+    for metric in AGGREGATION_SPEC["metrics"]:
         assert cell.get(metric) is not None, metric
 
     # the fixed-geography metrics are NOT fabricated here
@@ -62,7 +62,8 @@ def test_aggregate_to_polygons_produces_byop_metrics_only():
 
 
 def test_aggregation_spec_separates_byop_from_fixed():
-    assert set(AGGREGATION_SPEC["byop_metrics"]) == {
+    assert AGGREGATION_SPEC["contract"] == "byop/v1"
+    assert set(AGGREGATION_SPEC["metrics"]) == {
         "offstreet_parking_sites_per_sqkm",
         "parking_311_complaints_per_sqkm",
         "vehicles_per_household",
