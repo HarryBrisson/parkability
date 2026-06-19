@@ -91,6 +91,36 @@ supply / scarcity / 311 metrics and just skips `vehicles_per_household`.
 Standard library only — point-in-polygon, length, and area math are pure Python
 (`geometry.py`, `measure.py`); no shapely/geopandas. Tests: `python -m pytest`.
 
+## Bring your own polygons
+
+parkability publishes fixed ward / community-area / ZIP rollups, but its underlying features are
+points, so it can aggregate to **any** polygons you hand it — no need to be one of the three bundled
+geographies. An aggregator (e.g. [ward-wise / Penlight](https://penlight.wardwise.org)) can pass its
+own cells and get native per-polygon values instead of an areal estimate.
+
+```python
+import json
+from parkability.aggregation import aggregate_to_polygons
+
+cells = json.load(open("my_polygons.geojson"))             # any FeatureCollection
+values = aggregate_to_polygons(cells, id_field="cell_id")  # {cell_id: {metric: value, ...}}
+```
+
+or from the command line:
+
+```bash
+python -m parkability.aggregation --polygons my_polygons.geojson --id-field cell_id
+python -m parkability.aggregation --publish-layers data/layers   # export the point layers + spec
+```
+
+What you get natively, point-in-polygon ÷ area: **`offstreet_parking_sites_per_sqkm`**,
+**`parking_311_complaints_per_sqkm`**, **`vehicles_per_household`**. Two metrics stay
+fixed-geography (a consumer should estimate them by area overlap instead): the 311 *share* needs the
+all-complaints denominator, which is aggregated server-side and not retained per point; and the
+permit-zone metric is ward-tagged address ranges with no point geometry. `aggregation.AGGREGATION_SPEC`
+declares this split, and `--publish-layers` writes the fine-grained GeoJSON point layers so a non-Python
+consumer can do the same point-in-polygon itself.
+
 ## Sources & attribution
 
 - Off-street parking: **© OpenStreetMap contributors** ([ODbL](https://www.openstreetmap.org/copyright)), via Overpass.
